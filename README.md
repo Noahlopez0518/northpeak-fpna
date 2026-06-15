@@ -1,7 +1,12 @@
 # NorthPeak Analytics - SaaS FP&A & Forecasting Model
 
+**In plain English:** this project predicts a subscription-software company's future
+revenue, checks how its actual results compared to the budget, maps out best / middle /
+worst-case outcomes for next year, and sums it up in a one-page memo for leadership -
+then packages it all as an interactive dashboard.
+
 A complete, end-to-end **Financial Planning & Analysis** project for a fictional
-~$10M ARR B2B SaaS company. It does what an FP&A analyst actually does - forecast
+~$10M ARR (annual recurring revenue) B2B SaaS company. It does what an FP&A analyst actually does - forecast
 revenue from operating drivers, explain the gap between plan and reality, frame the
 range of outcomes for leadership, and brief the result to a CFO - but builds it as
 a **reproducible, backtested, self-checking pipeline** instead of a one-off workbook.
