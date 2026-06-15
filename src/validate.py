@@ -1,5 +1,5 @@
 """
-validate.py — reconciliation & sanity checks for the whole NorthPeak model.
+validate.py - reconciliation & sanity checks for the whole NorthPeak model.
 
 This is the "do the numbers actually tie out" script. It re-derives every
 accounting identity independently and asserts the source data and each
@@ -253,7 +253,7 @@ def main() -> None:
     validate_business_sense(drivers, fc, summary, scen)
 
     print("=" * 72)
-    print("NORTHPEAK MODEL — RECONCILIATION & SANITY CHECKS")
+    print("NORTHPEAK MODEL - RECONCILIATION & SANITY CHECKS")
     print("=" * 72)
     passed = sum(1 for ok, _, _ in _results if ok)
     for ok, name, detail in _results:

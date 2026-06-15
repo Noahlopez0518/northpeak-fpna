@@ -1,9 +1,9 @@
 """
-dashboard.py — Component 5 (data): build a Power BI-ready dataset.
+dashboard.py - Component 5 (data): build a Power BI-ready dataset.
 
 Power BI likes a single tidy/long fact table: one row per (date, series,
 metric, value). That shape lets a single table drive every visual via slicers
-— KPI cards, the ARR trend, the scenario fan — without reshaping in DAX.
+- KPI cards, the ARR trend, the scenario fan - without reshaping in DAX.
 
 This script assembles that table from the SAME in-memory builders the other
 components use (not by re-reading their CSVs), so the dashboard can never drift
@@ -132,7 +132,7 @@ def main() -> None:
     bridge.to_csv(utils.OUTPUTS / "dashboard_bridge.csv", index=False)
 
     print("=" * 64)
-    print("COMPONENT 5 (data) — POWER BI EXPORT")
+    print("COMPONENT 5 (data) - POWER BI EXPORT")
     print("=" * 64)
     print(f"dashboard_data.csv : {len(data):,} rows (tidy/long)")
     print(f"  series : {', '.join(sorted(data['series'].unique()))}")

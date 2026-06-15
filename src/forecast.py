@@ -1,5 +1,5 @@
 """
-forecast.py — Component 2: Driver-based revenue forecast for NorthPeak Analytics.
+forecast.py - Component 2: Driver-based revenue forecast for NorthPeak Analytics.
 
 WHY DRIVER-BASED (and not a flat growth %):
     A SaaS revenue number is the *output* of an operating engine, not an input.
@@ -11,7 +11,7 @@ WHY DRIVER-BASED (and not a flat growth %):
                         + expansion_mrr[t]  (upsell from the existing base)
 
     So instead of fitting a line to ARR, we forecast the four levers a CFO can
-    actually pull — new customer pace, logo churn, ARPU, and expansion — then
+    actually pull - new customer pace, logo churn, ARPU, and expansion - then
     roll them up. The forecast stays explainable: every dollar traces to a
     driver, and the scenario engine (Component 4) can flex those same levers.
 
@@ -63,7 +63,7 @@ def forecast_series(values: pd.Series, periods: int,
     """
     Forecast one driver `periods` months ahead.
 
-    Default model is Holt's linear trend with damping — appropriate for short
+    Default model is Holt's linear trend with damping - appropriate for short
     (24-point) monthly SaaS series that trend but shouldn't extrapolate to the
     moon. Falls back to a drift/mean forecast if the optimiser can't fit.
     """
@@ -163,7 +163,7 @@ def baseline_flat_growth(drivers: pd.DataFrame, periods: int) -> pd.DataFrame:
     """
     Naive strawman the brief warns against: project ARR with a single flat
     month-over-month growth rate (the average historical MRR growth). No
-    drivers, no explainability — the credibility benchmark to beat.
+    drivers, no explainability - the credibility benchmark to beat.
     """
     d = drivers.set_index("month")
     mrr = d["ending_mrr"].astype(float)
@@ -182,7 +182,7 @@ def baseline_flat_growth(drivers: pd.DataFrame, periods: int) -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------------------
-# Backtest — the credibility step
+# Backtest - the credibility step
 # ---------------------------------------------------------------------------
 def backtest(drivers: pd.DataFrame, holdout: int = HOLDOUT_MONTHS) -> dict:
     """
@@ -206,7 +206,7 @@ def backtest(drivers: pd.DataFrame, holdout: int = HOLDOUT_MONTHS) -> dict:
         "model_arr_mape": utils.mape(a_arr, fc["arr"].values),
         "model_arr_bias": utils.bias_pct(a_arr, fc["arr"].values),
         "baseline_arr_mape": utils.mape(a_arr, base["arr"].values),
-        # Per-driver accuracy (model only) — shows which lever is hardest.
+        # Per-driver accuracy (model only) - shows which lever is hardest.
         "driver_mape": {
             "new_customers": utils.mape(test["new_customers"], fc["new_customers"]),
             "churned_customers": utils.mape(test["churned_customers"], fc["churned_customers"]),
@@ -248,7 +248,7 @@ def plot_forecast(drivers: pd.DataFrame, fc: pd.DataFrame, bt: dict) -> None:
                color=utils.COLORS["band"], alpha=0.35, zorder=0,
                label=f"Backtest window ({bt['holdout']} mo)")
 
-    ax.set_title("NorthPeak ARR — Actuals & Driver-Based FY2026 Forecast")
+    ax.set_title("NorthPeak ARR - Actuals & Driver-Based FY2026 Forecast")
     ax.set_ylabel("Annual Recurring Revenue")
     ax.yaxis.set_major_formatter(FuncFormatter(utils.fmt_money))
     ax.set_xlabel("")
@@ -268,7 +268,7 @@ def plot_forecast(drivers: pd.DataFrame, fc: pd.DataFrame, bt: dict) -> None:
 
 
 def plot_drivers(drivers: pd.DataFrame, fc: pd.DataFrame) -> None:
-    """Small-multiple view of the forecasted levers — the 'how' behind the ARR."""
+    """Small-multiple view of the forecasted levers - the 'how' behind the ARR."""
     import matplotlib.pyplot as plt
     from matplotlib.ticker import FuncFormatter
 
@@ -292,7 +292,7 @@ def plot_drivers(drivers: pd.DataFrame, fc: pd.DataFrame) -> None:
         elif fmt == "pct":
             ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{x*100:.1f}%"))
     axes[0, 0].legend(loc="upper left")
-    fig.suptitle("FY2026 Forecast — Operating Drivers", fontsize=15,
+    fig.suptitle("FY2026 Forecast - Operating Drivers", fontsize=15,
                  fontweight="bold")
     fig.tight_layout(rect=(0, 0, 1, 0.97))
     fig.savefig(utils.FIGURES / "forecast_drivers.png")
@@ -306,7 +306,7 @@ def main() -> None:
     utils.ensure_dirs()
     drivers = utils.load_drivers()
 
-    # 1) Backtest first — earn the right to forecast.
+    # 1) Backtest first - earn the right to forecast.
     bt = backtest(drivers, HOLDOUT_MONTHS)
 
     # 2) Full FY2026 forecast on all 24 months of history.
@@ -329,7 +329,7 @@ def main() -> None:
     end_arr = fc["arr"].iloc[-1]
     dm = bt["driver_mape"]
     print("=" * 68)
-    print("COMPONENT 2 — DRIVER-BASED REVENUE FORECAST")
+    print("COMPONENT 2 - DRIVER-BASED REVENUE FORECAST")
     print("=" * 68)
     print(f"History: {drivers['month'].min():%Y-%m} -> {drivers['month'].max():%Y-%m} "
           f"({len(drivers)} months)")
@@ -337,11 +337,11 @@ def main() -> None:
     print(f"Forecast ARR (Dec-2026):     {utils.fmt_money(end_arr)}  "
           f"(+{(end_arr/start_arr - 1)*100:.1f}%)")
     print()
-    print(f"BACKTEST — held out last {bt['holdout']} months "
+    print(f"BACKTEST - held out last {bt['holdout']} months "
           f"({bt['test_start']:%Y-%m} to {bt['test_end']:%Y-%m}):")
-    print(f"  ARR MAPE  — driver model : {bt['model_arr_mape']:5.2f}%   "
+    print(f"  ARR MAPE  - driver model : {bt['model_arr_mape']:5.2f}%   "
           f"(bias {bt['model_arr_bias']:+.2f}%)")
-    print(f"  ARR MAPE  — flat baseline: {bt['baseline_arr_mape']:5.2f}%")
+    print(f"  ARR MAPE  - flat baseline: {bt['baseline_arr_mape']:5.2f}%")
     lift = bt["baseline_arr_mape"] - bt["model_arr_mape"]
     verdict = "beats" if lift > 0 else "trails"
     print(f"  -> driver model {verdict} baseline by {abs(lift):.2f} pts")

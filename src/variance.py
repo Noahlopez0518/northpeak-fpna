@@ -1,5 +1,5 @@
 """
-variance.py — Component 3: Budget vs. Actuals variance engine (FY2025).
+variance.py - Component 3: Budget vs. Actuals variance engine (FY2025).
 
 WHAT FP&A CARES ABOUT HERE:
     A budget is a promise made in December; actuals are what reality delivered.
@@ -8,7 +8,7 @@ WHAT FP&A CARES ABOUT HERE:
 
       1. A line-by-line variance table ($ and %) for revenue, COGS, gross
          profit, each OpEx line, total OpEx, and operating income.
-      2. Favorable / Unfavorable flags that respect sign convention — beating
+      2. Favorable / Unfavorable flags that respect sign convention - beating
          plan on revenue is good, but beating plan on spend means OVERspending.
       3. Material-variance flags (|%| > threshold or |$| > threshold) so the
          eye goes straight to what moved the needle.
@@ -67,7 +67,7 @@ def build_variance(actuals: pd.DataFrame, budget: pd.DataFrame):
     both the full-year and monthly grain. Returns (summary_df, monthly_df).
     """
     # The actuals file holds 24 months; the budget covers FY2025 only. The
-    # inner join naturally isolates the 12 FY2025 months — no manual slicing.
+    # inner join naturally isolates the 12 FY2025 months - no manual slicing.
     a = actuals.copy()
     a["gross_profit"] = a["revenue"] - a["cogs"]  # ensure present for the join
 
@@ -105,10 +105,10 @@ def build_variance(actuals: pd.DataFrame, budget: pd.DataFrame):
         row = {"month": r["month"]}
         for col, label, direction in LINE_SPECS:
             var = r[f"{col}_act"] - r[f"{col}_bud"]
-            row[f"{label} — Budget"] = r[f"{col}_bud"]
-            row[f"{label} — Actual"] = r[f"{col}_act"]
-            row[f"{label} — Var $"] = var
-            row[f"{label} — Var %"] = var / r[f"{col}_bud"] if r[f"{col}_bud"] else np.nan
+            row[f"{label} - Budget"] = r[f"{col}_bud"]
+            row[f"{label} - Actual"] = r[f"{col}_act"]
+            row[f"{label} - Var $"] = var
+            row[f"{label} - Var %"] = var / r[f"{col}_bud"] if r[f"{col}_bud"] else np.nan
         monthly_rows.append(row)
     monthly = pd.DataFrame(monthly_rows)
 
@@ -119,7 +119,7 @@ def build_bridge(merged: pd.DataFrame) -> pd.DataFrame:
     """
     Decompose the operating-income gap (plan -> actual) into its drivers.
 
-    Operating income = Revenue − COGS − S&M − R&D − G&A, so the total OI
+    Operating income = Revenue - COGS - S&M - R&D - G&A, so the total OI
     variance decomposes cleanly into one contribution per line. Revenue adds to
     OI when it beats plan; every cost line *subtracts* from OI when it runs over
     plan. Each bar's sign is its true contribution to the OI gap.
@@ -175,7 +175,7 @@ def write_excel(summary, monthly, bridge, path):
 
         # --- Summary sheet formatting ---
         ws = wb["Summary"]
-        ws["A1"] = "NorthPeak Analytics — FY2025 Budget vs. Actuals"
+        ws["A1"] = "NorthPeak Analytics - FY2025 Budget vs. Actuals"
         ws["A1"].font = title_font
         # header row is row 2
         for cell in ws[2]:
@@ -254,7 +254,7 @@ def plot_bridge(bridge: pd.DataFrame, path):
             # connector line from previous running total
             ax.plot([i - 1 + 0.3, i - 0.3], [running, running],
                     color="#999", lw=0.8, ls="--", zorder=2)
-            sign = "+" if amt >= 0 else "−"
+            sign = "+" if amt >= 0 else "-"
             ax.text(i, max(running, running + amt) + (0.01 * max(amounts)),
                     f"{sign}{utils.fmt_money(abs(amt))}", ha="center", va="bottom",
                     fontsize=8.5, color=color, fontweight="bold")
@@ -264,7 +264,7 @@ def plot_bridge(bridge: pd.DataFrame, path):
     ax.set_xticks(range(len(labels)))
     ax.set_xticklabels(labels, rotation=20, ha="right", fontsize=9.5)
     ax.yaxis.set_major_formatter(FuncFormatter(utils.fmt_money))
-    ax.set_title("FY2025 Operating Income Bridge — Budget vs. Actual")
+    ax.set_title("FY2025 Operating Income Bridge - Budget vs. Actual")
     ax.set_ylabel("Operating Income")
     # custom legend
     from matplotlib.patches import Patch
@@ -305,7 +305,7 @@ def plot_variance_by_line(summary: pd.DataFrame, path):
         ax.text(v + np.sign(v) * off, y, f"{utils.fmt_money(v)}{tag}",
                 va="center", ha="left" if v >= 0 else "right", fontsize=9)
     ax.set_title("FY2025 Variance by Line  (favorable = green, unfavorable = red, ● = material)")
-    ax.set_xlabel("Actual − Budget ($)")
+    ax.set_xlabel("Actual - Budget ($)")
     fig.tight_layout()
     fig.savefig(path)
     plt.close(fig)
@@ -333,7 +333,7 @@ def main() -> None:
 
     rev, oi = row("Revenue"), row("Operating Income")
     print("=" * 70)
-    print("COMPONENT 3 — FY2025 BUDGET vs. ACTUALS VARIANCE")
+    print("COMPONENT 3 - FY2025 BUDGET vs. ACTUALS VARIANCE")
     print("=" * 70)
     print(f"Period: {merged['month'].min():%Y-%m} to {merged['month'].max():%Y-%m} "
           f"({len(merged)} months)\n")

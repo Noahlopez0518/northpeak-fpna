@@ -1,22 +1,22 @@
 """
-scenarios.py — Component 4: Scenario analysis (Base / Upside / Downside) for FY2026.
+scenarios.py - Component 4: Scenario analysis (Base / Upside / Downside) for FY2026.
 
 WHY THIS MATTERS:
     A single forecast is a guess; a scenario set is a decision tool. The board
-    doesn't want one number — they want the range, and the *levers* that move
+    doesn't want one number - they want the range, and the *levers* that move
     NorthPeak between a great year and a painful one. This module flexes the
     same driver-based engine from Component 2 with a small, clearly-labeled set
     of assumptions, so anyone can see "if sales lands 20% more logos and we hold
     churn at 1.3%, here's the ARR and operating income."
 
 THE FOUR LEVERS WE FLEX (the things leadership can actually influence):
-    1. New-customer pace   — go-to-market effectiveness (multiplier on base)
-    2. Logo churn rate      — retention / product stickiness (absolute monthly %)
-    3. ARPU growth premium  — pricing & packaging (extra monthly drift)
-    4. Expansion pace       — upsell into the base (multiplier on base)
+    1. New-customer pace   - go-to-market effectiveness (multiplier on base)
+    2. Logo churn rate      - retention / product stickiness (absolute monthly %)
+    3. ARPU growth premium  - pricing & packaging (extra monthly drift)
+    4. Expansion pace       - upsell into the base (multiplier on base)
   Plus two margin levers:
-    5. COGS % of revenue    — hosting/support efficiency
-    6. OpEx % of revenue    — hiring & spend discipline (operating leverage)
+    5. COGS % of revenue    - hosting/support efficiency
+    6. OpEx % of revenue    - hiring & spend discipline (operating leverage)
 
 Base case reproduces the Component 2 forecast; Upside/Downside flex from there.
 
@@ -42,7 +42,7 @@ if hasattr(sys.stdout, "reconfigure"):
 FORECAST_MONTHS = 12  # FY2026
 
 # ---------------------------------------------------------------------------
-# SCENARIO ASSUMPTIONS — toggle these. Everything downstream is derived.
+# SCENARIO ASSUMPTIONS - toggle these. Everything downstream is derived.
 #
 #   new_customer_pace : multiplier on the base-forecast new-logo count
 #   logo_churn_rate   : absolute monthly logo churn (overrides base ~1.74%)
@@ -170,7 +170,7 @@ def plot_scenarios(drivers: pd.DataFrame, scen: pd.DataFrame, path):
                      xy=(pivot.index[-1], pivot[name].iloc[-1]),
                      xytext=(8, 0), textcoords="offset points", va="center",
                      fontsize=9, fontweight="bold", color=SCENARIO_COLORS[name])
-    ax1.set_title("FY2026 ARR — Scenario Fan")
+    ax1.set_title("FY2026 ARR - Scenario Fan")
     ax1.set_ylabel("Annual Recurring Revenue")
     ax1.yaxis.set_major_formatter(FuncFormatter(utils.fmt_money))
     ax1.legend(loc="upper left", fontsize=9)
@@ -209,7 +209,7 @@ def main() -> None:
 
     start_arr = float(drivers["arr"].iloc[-1])
     print("=" * 70)
-    print("COMPONENT 4 — FY2026 SCENARIO ANALYSIS")
+    print("COMPONENT 4 - FY2026 SCENARIO ANALYSIS")
     print("=" * 70)
     print(f"Starting point (Dec-2025 actual ARR): {utils.fmt_money(start_arr)}\n")
     print(f"{'Scenario':<10}{'Exit ARR':>12}{'ARR Growth':>12}"
@@ -227,7 +227,7 @@ def main() -> None:
     print("-" * 59)
     spread_lo = float(scen[scen.scenario == "Downside"]["arr"].iloc[-1])
     spread_hi = float(scen[scen.scenario == "Upside"]["arr"].iloc[-1])
-    print(f"\nFY2026 exit-ARR range: {utils.fmt_money(spread_lo)} – "
+    print(f"\nFY2026 exit-ARR range: {utils.fmt_money(spread_lo)} - "
           f"{utils.fmt_money(spread_hi)} "
           f"(spread {utils.fmt_money(spread_hi - spread_lo)})")
     print(f"\nWrote: outputs/scenarios.csv")

@@ -1,5 +1,5 @@
 """
-NorthPeak Analytics — Synthetic SaaS FP&A Dataset Generator
+NorthPeak Analytics - Synthetic SaaS FP&A Dataset Generator
 Generates realistic subscription-business data for an FP&A project:
   - Monthly customer/subscription activity (new, churn, expansion)
   - Actuals: revenue + OpEx by category (24 months)
@@ -72,7 +72,7 @@ subs["net_revenue_retention"] = (
     subs["ending_mrr"].shift(1)).round(4)
 
 # ----------------------------------------------------------------------
-# 3. ACTUALS P&L (revenue + OpEx) — driven off the subscription engine
+# 3. ACTUALS P&L (revenue + OpEx) - driven off the subscription engine
 # ----------------------------------------------------------------------
 pl = subs[["month", "ending_mrr"]].copy()
 pl["revenue"] = pl["ending_mrr"]
@@ -92,7 +92,7 @@ pl["operating_margin"] = (pl["operating_income"] / pl["revenue"]).round(4)
 pl = pl.drop(columns=["ending_mrr"])
 
 # ----------------------------------------------------------------------
-# 4. BUDGET (FY2025 plan) — set in Dec 2024, slightly optimistic vs reality
+# 4. BUDGET (FY2025 plan) - set in Dec 2024, slightly optimistic vs reality
 # ----------------------------------------------------------------------
 # Budget assumed smoother, more aggressive revenue, tighter cost control
 dec24_rev = pl.loc[pl["month"] == "2024-12-01", "revenue"].values[0]

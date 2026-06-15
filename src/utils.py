@@ -1,5 +1,5 @@
 """
-utils.py — shared helpers for the NorthPeak FP&A project.
+utils.py - shared helpers for the NorthPeak FP&A project.
 
 Data loading, path management, accuracy metrics, and a consistent chart style
 so every figure in the project looks like it came from the same deck.
@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 # ---------------------------------------------------------------------------
-# Paths — resolve everything relative to the repo root so each src/*.py script
+# Paths - resolve everything relative to the repo root so each src/*.py script
 # runs standalone from any working directory.
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parents[1]
@@ -62,7 +62,7 @@ def mape(actual, predicted) -> float:
 
 
 def smape(actual, predicted) -> float:
-    """Symmetric MAPE (%) — bounded, robust when actuals are small."""
+    """Symmetric MAPE (%) - bounded, robust when actuals are small."""
     actual = np.asarray(actual, dtype=float)
     predicted = np.asarray(predicted, dtype=float)
     denom = (np.abs(actual) + np.abs(predicted)) / 2
@@ -83,11 +83,11 @@ def bias_pct(actual, predicted) -> float:
 # looking like a coherent set on LinkedIn / in the README.
 # ---------------------------------------------------------------------------
 COLORS = {
-    "actual": "#1b3a5b",      # deep navy — historical actuals
-    "forecast": "#e07b39",    # warm orange — forecast
-    "baseline": "#9aa7b1",    # muted grey — naive baseline
-    "budget": "#3f8f6b",      # green — plan/budget
-    "band": "#f0c9a8",        # light orange — forecast uncertainty band
+    "actual": "#1b3a5b",      # deep navy - historical actuals
+    "forecast": "#e07b39",    # warm orange - forecast
+    "baseline": "#9aa7b1",    # muted grey - naive baseline
+    "budget": "#3f8f6b",      # green - plan/budget
+    "band": "#f0c9a8",        # light orange - forecast uncertainty band
     "favorable": "#3f8f6b",
     "unfavorable": "#c0432f",
     "grid": "#dfe4e8",

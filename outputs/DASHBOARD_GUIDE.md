@@ -1,9 +1,9 @@
-# NorthPeak FP&A — Power BI Dashboard Build Guide
+# NorthPeak FP&A - Power BI Dashboard Build Guide
 
 This guide turns the project's data into an executive Power BI dashboard. Claude
 Code can't author a `.pbix` directly, so it produced two clean, tidy datasets and
 this step-by-step spec. A competent analyst can assemble the dashboard below in
-30–45 minutes.
+30-45 minutes.
 
 ## Data sources
 
@@ -32,7 +32,7 @@ etc.). `unit` ∈ {`currency`, `percent`, `count`} for conditional formatting.
    Everything else is this measure filtered by `series`/`metric` via slicers or
    explicit `CALCULATE`.
 
-## Page 1 — Executive Summary
+## Page 1 - Executive Summary
 
 **Four KPI cards** (top row). Each is `Value` filtered to the latest actual month
 (Dec-2025) unless noted:
@@ -40,9 +40,9 @@ etc.). `unit` ∈ {`currency`, `percent`, `count`} for conditional formatting.
 | Card | Filter | Reads |
 |---|---|---|
 | **Ending ARR** | series=Actual, metric=arr, last month | **$10.3M** |
-| **Net Revenue Retention (annual)** | `Annual NRR (FY2025)` measure — FY2025 monthly factors compounded (`EXP(SUMX(LN(value)))`) | **92.7%** |
+| **Net Revenue Retention (annual)** | `Annual NRR (FY2025)` measure - FY2025 monthly factors compounded (`EXP(SUMX(LN(value)))`) | **92.7%** |
 | **Logo Churn (monthly)** | series=Actual, metric=logo_churn_rate, last month | **1.7%** |
-| **FY2025 Operating Margin** | series=Actual, FY2025 **total** operating_income ÷ total revenue | **−1.6%** |
+| **FY2025 Operating Margin** | series=Actual, FY2025 **total** operating_income ÷ total revenue | **-1.6%** |
 
 Format cards by `unit`: currency → `$#,0.0,,"M"`; percent → `0.0%`.
 
@@ -55,21 +55,21 @@ Forecast orange dashed. This is the headline: $3.2M → $10.3M actual, extending
 month: `Value` metric=revenue for series=Budget vs. series=Actual. Add a line for
 metric=operating_income. Tells the "beat revenue, missed profit" story at a glance.
 
-## Page 2 — Variance Analysis (FY2025 Budget vs. Actual)
+## Page 2 - Variance Analysis (FY2025 Budget vs. Actual)
 
 **Operating-income waterfall** from `dashboard_bridge.csv`. Use a Waterfall visual:
 Category = `label` (sorted by `step_order`), Y = `amount`, and set
 `Budget Operating Income` / `Actual Operating Income` as totals (`kind = anchor`).
 Color deltas green when positive, red when negative.
 
-Reads: **$368K plan → +$888K revenue → −$356K COGS → −$485K S&M → −$362K R&D →
-−$185K G&A → −$132K actual.**
+Reads: **$368K plan → +$888K revenue → -$356K COGS → -$485K S&M → -$362K R&D →
+-$185K G&A → -$132K actual.**
 
 **Variance table** (matrix). Rebuild from `outputs/variance_analysis.xlsx`
 (`Summary` sheet) or compute in DAX: Budget, Actual, Variance $, Variance %, F/U.
 Conditional-format Variance % red/green by the F/U column.
 
-## Page 3 — FY2026 Scenarios
+## Page 3 - FY2026 Scenarios
 
 **Scenario fan (line chart).** metric=arr, series = the three `Scenario: *` plus a
 tail of Actual for context. Use a light shaded band between Upside and Downside.
@@ -78,10 +78,10 @@ tail of Actual for context. Use a light shaded band between Upside and Downside.
 |---|--:|--:|--:|
 | Upside | $17.2M | +$1.8M | 13.0% |
 | Base | $15.1M | +$0.5M | 3.8% |
-| Downside | $12.7M | −$0.5M | −4.0% |
+| Downside | $12.7M | -$0.5M | -4.0% |
 
 **Scenario OI (clustered column).** metric=operating_income summed over FY2026 by
-`series`. One green/navy/red column each — the profitability spread.
+`series`. One green/navy/red column each - the profitability spread.
 
 **Assumptions card / slicer panel.** List the six toggled drivers (new-customer
 pace, churn rate, ARPU growth, expansion pace, COGS %, OpEx %) as a text box so
@@ -96,7 +96,7 @@ viewers see what separates the cases. (Values live at the top of `src/scenarios.
 
 ## Refresh
 
-Re-run the pipeline, then **Refresh** in Power BI — the long schema means new
+Re-run the pipeline, then **Refresh** in Power BI - the long schema means new
 months flow into every visual with no rework:
 ```
 python src/forecast.py && python src/variance.py && python src/scenarios.py && python src/dashboard.py
