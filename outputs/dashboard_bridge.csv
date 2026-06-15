@@ -1,0 +1,8 @@
+step_order,label,amount,kind
+1,Budget Operating Income,367758.52,anchor
+2,Revenue,888012.9099999983,delta
+3,COGS,-356482.16000000015,delta
+4,Sales & Marketing,-484518.2700000005,delta
+5,Research & Development,-361875.04000000027,delta
+6,General & Admin,-184597.26000000013,delta
+7,Actual Operating Income,-131701.3000000001,anchor

@@ -1,0 +1,1031 @@
+date,series,metric,value,unit
+2024-01-01,Actual,arr,3228391.03,currency
+2024-02-01,Actual,arr,3434265.81,currency
+2024-03-01,Actual,arr,3644872.18,currency
+2024-04-01,Actual,arr,3923172.72,currency
+2024-05-01,Actual,arr,4130878.41,currency
+2024-06-01,Actual,arr,4440072.29,currency
+2024-07-01,Actual,arr,4653974.03,currency
+2024-08-01,Actual,arr,4871301.69,currency
+2024-09-01,Actual,arr,5092645.48,currency
+2024-10-01,Actual,arr,5354469.54,currency
+2024-11-01,Actual,arr,5616777.9,currency
+2024-12-01,Actual,arr,5840129.27,currency
+2025-01-01,Actual,arr,6193615.01,currency
+2025-02-01,Actual,arr,6526327.85,currency
+2025-03-01,Actual,arr,6905428.22,currency
+2025-04-01,Actual,arr,7269661.26,currency
+2025-05-01,Actual,arr,7701399.66,currency
+2025-06-01,Actual,arr,8148913.64,currency
+2025-07-01,Actual,arr,8496810.14,currency
+2025-08-01,Actual,arr,8837677.01,currency
+2025-09-01,Actual,arr,9167150.66,currency
+2025-10-01,Actual,arr,9514342.08,currency
+2025-11-01,Actual,arr,9890598.97,currency
+2025-12-01,Actual,arr,10266281.25,currency
+2024-01-01,Actual,churned_customers,4.0,count
+2024-02-01,Actual,churned_customers,4.0,count
+2024-03-01,Actual,churned_customers,5.0,count
+2024-04-01,Actual,churned_customers,3.0,count
+2024-05-01,Actual,churned_customers,5.0,count
+2024-06-01,Actual,churned_customers,5.0,count
+2024-07-01,Actual,churned_customers,6.0,count
+2024-08-01,Actual,churned_customers,5.0,count
+2024-09-01,Actual,churned_customers,5.0,count
+2024-10-01,Actual,churned_customers,4.0,count
+2024-11-01,Actual,churned_customers,7.0,count
+2024-12-01,Actual,churned_customers,6.0,count
+2025-01-01,Actual,churned_customers,5.0,count
+2025-02-01,Actual,churned_customers,8.0,count
+2025-03-01,Actual,churned_customers,7.0,count
+2025-04-01,Actual,churned_customers,8.0,count
+2025-05-01,Actual,churned_customers,10.0,count
+2025-06-01,Actual,churned_customers,8.0,count
+2025-07-01,Actual,churned_customers,12.0,count
+2025-08-01,Actual,churned_customers,9.0,count
+2025-09-01,Actual,churned_customers,11.0,count
+2025-10-01,Actual,churned_customers,9.0,count
+2025-11-01,Actual,churned_customers,11.0,count
+2025-12-01,Actual,churned_customers,10.0,count
+2024-01-01,Actual,churned_mrr,4629.79,currency
+2024-02-01,Actual,churned_mrr,4684.33,currency
+2024-03-01,Actual,churned_mrr,5752.01,currency
+2024-04-01,Actual,churned_mrr,3415.98,currency
+2024-05-01,Actual,churned_mrr,5754.98,currency
+2024-06-01,Actual,churned_mrr,5826.17,currency
+2024-07-01,Actual,churned_mrr,6923.53,currency
+2024-08-01,Actual,churned_mrr,5816.17,currency
+2024-09-01,Actual,churned_mrr,5914.26,currency
+2024-10-01,Actual,churned_mrr,4642.06,currency
+2024-11-01,Actual,churned_mrr,8243.98,currency
+2024-12-01,Actual,churned_mrr,7059.47,currency
+2025-01-01,Actual,churned_mrr,5944.09,currency
+2025-02-01,Actual,churned_mrr,9601.51,currency
+2025-03-01,Actual,churned_mrr,8363.99,currency
+2025-04-01,Actual,churned_mrr,9445.44,currency
+2025-05-01,Actual,churned_mrr,11960.11,currency
+2025-06-01,Actual,churned_mrr,9633.61,currency
+2025-07-01,Actual,churned_mrr,14056.23,currency
+2025-08-01,Actual,churned_mrr,10862.8,currency
+2025-09-01,Actual,churned_mrr,13494.28,currency
+2025-10-01,Actual,churned_mrr,11007.02,currency
+2025-11-01,Actual,churned_mrr,13377.3,currency
+2025-12-01,Actual,churned_mrr,12132.0,currency
+2024-01-01,Actual,cogs,59983.83,currency
+2024-02-01,Actual,cogs,63708.65,currency
+2024-03-01,Actual,cogs,66838.19,currency
+2024-04-01,Actual,cogs,71157.89,currency
+2024-05-01,Actual,cogs,70860.5,currency
+2024-06-01,Actual,cogs,79844.91,currency
+2024-07-01,Actual,cogs,83993.7,currency
+2024-08-01,Actual,cogs,86050.42,currency
+2024-09-01,Actual,cogs,92680.69,currency
+2024-10-01,Actual,cogs,99968.17,currency
+2024-11-01,Actual,cogs,111802.84,currency
+2024-12-01,Actual,cogs,107918.67,currency
+2025-01-01,Actual,cogs,114878.91,currency
+2025-02-01,Actual,cogs,119244.46,currency
+2025-03-01,Actual,cogs,115557.9,currency
+2025-04-01,Actual,cogs,133116.5,currency
+2025-05-01,Actual,cogs,141578.88,currency
+2025-06-01,Actual,cogs,166124.04,currency
+2025-07-01,Actual,cogs,154412.81,currency
+2025-08-01,Actual,cogs,164244.89,currency
+2025-09-01,Actual,cogs,167799.26,currency
+2025-10-01,Actual,cogs,165163.6,currency
+2025-11-01,Actual,cogs,190746.98,currency
+2025-12-01,Actual,cogs,194648.12,currency
+2024-01-01,Actual,ending_customers,231.0,count
+2024-02-01,Actual,ending_customers,243.0,count
+2024-03-01,Actual,ending_customers,256.0,count
+2024-04-01,Actual,ending_customers,274.0,count
+2024-05-01,Actual,ending_customers,287.0,count
+2024-06-01,Actual,ending_customers,307.0,count
+2024-07-01,Actual,ending_customers,319.0,count
+2024-08-01,Actual,ending_customers,330.0,count
+2024-09-01,Actual,ending_customers,343.0,count
+2024-10-01,Actual,ending_customers,358.0,count
+2024-11-01,Actual,ending_customers,373.0,count
+2024-12-01,Actual,ending_customers,384.0,count
+2025-01-01,Actual,ending_customers,405.0,count
+2025-02-01,Actual,ending_customers,423.0,count
+2025-03-01,Actual,ending_customers,444.0,count
+2025-04-01,Actual,ending_customers,466.0,count
+2025-05-01,Actual,ending_customers,490.0,count
+2025-06-01,Actual,ending_customers,514.0,count
+2025-07-01,Actual,ending_customers,532.0,count
+2025-08-01,Actual,ending_customers,552.0,count
+2025-09-01,Actual,ending_customers,569.0,count
+2025-10-01,Actual,ending_customers,586.0,count
+2025-11-01,Actual,ending_customers,604.0,count
+2025-12-01,Actual,ending_customers,625.0,count
+2024-01-01,Actual,expansion_mrr,3300.65,currency
+2024-02-01,Actual,expansion_mrr,3103.26,currency
+2024-03-01,Actual,expansion_mrr,2595.31,currency
+2024-04-01,Actual,expansion_mrr,2695.82,currency
+2024-05-01,Actual,expansion_mrr,2345.86,currency
+2024-06-01,Actual,expansion_mrr,2461.49,currency
+2024-07-01,Actual,expansion_mrr,3978.08,currency
+2024-08-01,Actual,expansion_mrr,5315.05,currency
+2024-09-01,Actual,expansion_mrr,3068.24,currency
+2024-10-01,Actual,expansion_mrr,4410.96,currency
+2024-11-01,Actual,expansion_mrr,4193.35,currency
+2024-12-01,Actual,expansion_mrr,5670.25,currency
+2025-01-01,Actual,expansion_mrr,4491.95,currency
+2025-02-01,Actual,expansion_mrr,6122.68,currency
+2025-03-01,Actual,expansion_mrr,6499.73,currency
+2025-04-01,Actual,expansion_mrr,4377.8,currency
+2025-05-01,Actual,expansion_mrr,7273.94,currency
+2025-06-01,Actual,expansion_mrr,8392.01,currency
+2025-07-01,Actual,expansion_mrr,7907.03,currency
+2025-08-01,Actual,expansion_mrr,4266.01,currency
+2025-09-01,Actual,expansion_mrr,6601.35,currency
+2025-10-01,Actual,expansion_mrr,8141.58,currency
+2025-11-01,Actual,expansion_mrr,9464.62,currency
+2025-12-01,Actual,expansion_mrr,5829.66,currency
+2024-01-01,Actual,general_admin,37004.39,currency
+2024-02-01,Actual,general_admin,37909.33,currency
+2024-03-01,Actual,general_admin,39821.7,currency
+2024-04-01,Actual,general_admin,43103.21,currency
+2024-05-01,Actual,general_admin,47928.17,currency
+2024-06-01,Actual,general_admin,53063.13,currency
+2024-07-01,Actual,general_admin,55369.46,currency
+2024-08-01,Actual,general_admin,60189.74,currency
+2024-09-01,Actual,general_admin,59469.38,currency
+2024-10-01,Actual,general_admin,68954.57,currency
+2024-11-01,Actual,general_admin,64290.31,currency
+2024-12-01,Actual,general_admin,81373.29,currency
+2025-01-01,Actual,general_admin,75488.13,currency
+2025-02-01,Actual,general_admin,71478.75,currency
+2025-03-01,Actual,general_admin,74400.85,currency
+2025-04-01,Actual,general_admin,87735.56,currency
+2025-05-01,Actual,general_admin,88415.52,currency
+2025-06-01,Actual,general_admin,99919.27,currency
+2025-07-01,Actual,general_admin,102480.29,currency
+2025-08-01,Actual,general_admin,102569.87,currency
+2025-09-01,Actual,general_admin,100481.19,currency
+2025-10-01,Actual,general_admin,98990.01,currency
+2025-11-01,Actual,general_admin,111710.07,currency
+2025-12-01,Actual,general_admin,127099.97,currency
+2024-01-01,Actual,gross_profit,209048.76,currency
+2024-02-01,Actual,gross_profit,222480.17,currency
+2024-03-01,Actual,gross_profit,236901.16,currency
+2024-04-01,Actual,gross_profit,255773.17,currency
+2024-05-01,Actual,gross_profit,273379.37,currency
+2024-06-01,Actual,gross_profit,290161.11,currency
+2024-07-01,Actual,gross_profit,303837.47,currency
+2024-08-01,Actual,gross_profit,319891.39,currency
+2024-09-01,Actual,gross_profit,331706.43,currency
+2024-10-01,Actual,gross_profit,346237.63,currency
+2024-11-01,Actual,gross_profit,356261.99,currency
+2024-12-01,Actual,gross_profit,378758.77,currency
+2025-01-01,Actual,gross_profit,401255.67,currency
+2025-02-01,Actual,gross_profit,424616.19,currency
+2025-03-01,Actual,gross_profit,459894.45,currency
+2025-04-01,Actual,gross_profit,472688.6,currency
+2025-05-01,Actual,gross_profit,500204.43000000005,currency
+2025-06-01,Actual,gross_profit,512952.1,currency
+2025-07-01,Actual,gross_profit,553654.7,currency
+2025-08-01,Actual,gross_profit,572228.19,currency
+2025-09-01,Actual,gross_profit,596129.96,currency
+2025-10-01,Actual,gross_profit,627698.24,currency
+2025-11-01,Actual,gross_profit,633469.6,currency
+2025-12-01,Actual,gross_profit,660875.32,currency
+2024-02-01,Actual,logo_churn_rate,0.0173,percent
+2024-03-01,Actual,logo_churn_rate,0.0206,percent
+2024-04-01,Actual,logo_churn_rate,0.0117,percent
+2024-05-01,Actual,logo_churn_rate,0.0182,percent
+2024-06-01,Actual,logo_churn_rate,0.0174,percent
+2024-07-01,Actual,logo_churn_rate,0.0195,percent
+2024-08-01,Actual,logo_churn_rate,0.0157,percent
+2024-09-01,Actual,logo_churn_rate,0.0152,percent
+2024-10-01,Actual,logo_churn_rate,0.0117,percent
+2024-11-01,Actual,logo_churn_rate,0.0196,percent
+2024-12-01,Actual,logo_churn_rate,0.0161,percent
+2025-01-01,Actual,logo_churn_rate,0.013,percent
+2025-02-01,Actual,logo_churn_rate,0.0198,percent
+2025-03-01,Actual,logo_churn_rate,0.0165,percent
+2025-04-01,Actual,logo_churn_rate,0.018,percent
+2025-05-01,Actual,logo_churn_rate,0.0215,percent
+2025-06-01,Actual,logo_churn_rate,0.0163,percent
+2025-07-01,Actual,logo_churn_rate,0.0233,percent
+2025-08-01,Actual,logo_churn_rate,0.0169,percent
+2025-09-01,Actual,logo_churn_rate,0.0199,percent
+2025-10-01,Actual,logo_churn_rate,0.0158,percent
+2025-11-01,Actual,logo_churn_rate,0.0188,percent
+2025-12-01,Actual,logo_churn_rate,0.0166,percent
+2024-01-01,Actual,mrr,269032.59,currency
+2024-02-01,Actual,mrr,286188.82,currency
+2024-03-01,Actual,mrr,303739.35,currency
+2024-04-01,Actual,mrr,326931.06,currency
+2024-05-01,Actual,mrr,344239.87,currency
+2024-06-01,Actual,mrr,370006.02,currency
+2024-07-01,Actual,mrr,387831.17,currency
+2024-08-01,Actual,mrr,405941.81,currency
+2024-09-01,Actual,mrr,424387.12,currency
+2024-10-01,Actual,mrr,446205.8,currency
+2024-11-01,Actual,mrr,468064.83,currency
+2024-12-01,Actual,mrr,486677.44,currency
+2025-01-01,Actual,mrr,516134.58,currency
+2025-02-01,Actual,mrr,543860.65,currency
+2025-03-01,Actual,mrr,575452.35,currency
+2025-04-01,Actual,mrr,605805.1,currency
+2025-05-01,Actual,mrr,641783.31,currency
+2025-06-01,Actual,mrr,679076.14,currency
+2025-07-01,Actual,mrr,708067.51,currency
+2025-08-01,Actual,mrr,736473.08,currency
+2025-09-01,Actual,mrr,763929.22,currency
+2025-10-01,Actual,mrr,792861.84,currency
+2025-11-01,Actual,mrr,824216.58,currency
+2025-12-01,Actual,mrr,855523.44,currency
+2024-02-01,Actual,net_revenue_retention,0.9941,percent
+2024-03-01,Actual,net_revenue_retention,0.989,percent
+2024-04-01,Actual,net_revenue_retention,0.9976,percent
+2024-05-01,Actual,net_revenue_retention,0.9896,percent
+2024-06-01,Actual,net_revenue_retention,0.9902,percent
+2024-07-01,Actual,net_revenue_retention,0.992,percent
+2024-08-01,Actual,net_revenue_retention,0.9987,percent
+2024-09-01,Actual,net_revenue_retention,0.993,percent
+2024-10-01,Actual,net_revenue_retention,0.9995,percent
+2024-11-01,Actual,net_revenue_retention,0.9909,percent
+2024-12-01,Actual,net_revenue_retention,0.997,percent
+2025-01-01,Actual,net_revenue_retention,0.997,percent
+2025-02-01,Actual,net_revenue_retention,0.9933,percent
+2025-03-01,Actual,net_revenue_retention,0.9966,percent
+2025-04-01,Actual,net_revenue_retention,0.9912,percent
+2025-05-01,Actual,net_revenue_retention,0.9923,percent
+2025-06-01,Actual,net_revenue_retention,0.9981,percent
+2025-07-01,Actual,net_revenue_retention,0.9909,percent
+2025-08-01,Actual,net_revenue_retention,0.9907,percent
+2025-09-01,Actual,net_revenue_retention,0.9906,percent
+2025-10-01,Actual,net_revenue_retention,0.9962,percent
+2025-11-01,Actual,net_revenue_retention,0.9951,percent
+2025-12-01,Actual,net_revenue_retention,0.9924,percent
+2024-01-01,Actual,new_customers,15.0,count
+2024-02-01,Actual,new_customers,16.0,count
+2024-03-01,Actual,new_customers,18.0,count
+2024-04-01,Actual,new_customers,21.0,count
+2024-05-01,Actual,new_customers,18.0,count
+2024-06-01,Actual,new_customers,25.0,count
+2024-07-01,Actual,new_customers,18.0,count
+2024-08-01,Actual,new_customers,16.0,count
+2024-09-01,Actual,new_customers,18.0,count
+2024-10-01,Actual,new_customers,19.0,count
+2024-11-01,Actual,new_customers,22.0,count
+2024-12-01,Actual,new_customers,17.0,count
+2025-01-01,Actual,new_customers,26.0,count
+2025-02-01,Actual,new_customers,26.0,count
+2025-03-01,Actual,new_customers,28.0,count
+2025-04-01,Actual,new_customers,30.0,count
+2025-05-01,Actual,new_customers,34.0,count
+2025-06-01,Actual,new_customers,32.0,count
+2025-07-01,Actual,new_customers,30.0,count
+2025-08-01,Actual,new_customers,29.0,count
+2025-09-01,Actual,new_customers,28.0,count
+2025-10-01,Actual,new_customers,26.0,count
+2025-11-01,Actual,new_customers,29.0,count
+2025-12-01,Actual,new_customers,31.0,count
+2024-01-01,Actual,new_mrr,17361.73,currency
+2024-02-01,Actual,new_mrr,18737.3,currency
+2024-03-01,Actual,new_mrr,20707.22,currency
+2024-04-01,Actual,new_mrr,23911.88,currency
+2024-05-01,Actual,new_mrr,20717.93,currency
+2024-06-01,Actual,new_mrr,29130.83,currency
+2024-07-01,Actual,new_mrr,20770.6,currency
+2024-08-01,Actual,new_mrr,18611.76,currency
+2024-09-01,Actual,new_mrr,21291.34,currency
+2024-10-01,Actual,new_mrr,22049.77,currency
+2024-11-01,Actual,new_mrr,25909.66,currency
+2024-12-01,Actual,new_mrr,20001.83,currency
+2025-01-01,Actual,new_mrr,30909.29,currency
+2025-02-01,Actual,new_mrr,31204.9,currency
+2025-03-01,Actual,new_mrr,33455.96,currency
+2025-04-01,Actual,new_mrr,35420.39,currency
+2025-05-01,Actual,new_mrr,40664.37,currency
+2025-06-01,Actual,new_mrr,38534.43,currency
+2025-07-01,Actual,new_mrr,35140.58,currency
+2025-08-01,Actual,new_mrr,35002.37,currency
+2025-09-01,Actual,new_mrr,34349.07,currency
+2025-10-01,Actual,new_mrr,31798.06,currency
+2025-11-01,Actual,new_mrr,35267.41,currency
+2025-12-01,Actual,new_mrr,37609.2,currency
+2024-01-01,Actual,operating_income,-8131.830000000016,currency
+2024-02-01,Actual,operating_income,397.0000000000291,currency
+2024-03-01,Actual,operating_income,-3237.140000000014,currency
+2024-04-01,Actual,operating_income,15806.420000000013,currency
+2024-05-01,Actual,operating_income,-5040.200000000012,currency
+2024-06-01,Actual,operating_income,-21263.860000000044,currency
+2024-07-01,Actual,operating_income,2603.7299999999814,currency
+2024-08-01,Actual,operating_income,-1672.4199999999837,currency
+2024-09-01,Actual,operating_income,-131.48000000003958,currency
+2024-10-01,Actual,operating_income,-9812.119999999995,currency
+2024-11-01,Actual,operating_income,188.10999999998603,currency
+2024-12-01,Actual,operating_income,-14407.339999999967,currency
+2025-01-01,Actual,operating_income,-13198.969999999972,currency
+2025-02-01,Actual,operating_income,-9388.840000000026,currency
+2025-03-01,Actual,operating_income,32314.349999999977,currency
+2025-04-01,Actual,operating_income,-33565.590000000026,currency
+2025-05-01,Actual,operating_income,14066.350000000037,currency
+2025-06-01,Actual,operating_income,-32009.93000000005,currency
+2025-07-01,Actual,operating_income,-32895.44000000006,currency
+2025-08-01,Actual,operating_income,18146.949999999957,currency
+2025-09-01,Actual,operating_income,-15419.75,currency
+2025-10-01,Actual,operating_income,-12288.810000000056,currency
+2025-11-01,Actual,operating_income,2353.70000000007,currency
+2025-12-01,Actual,operating_income,-49815.31999999995,currency
+2024-01-01,Actual,operating_margin,-0.0302,percent
+2024-02-01,Actual,operating_margin,0.0014,percent
+2024-03-01,Actual,operating_margin,-0.0107,percent
+2024-04-01,Actual,operating_margin,0.0483,percent
+2024-05-01,Actual,operating_margin,-0.0146,percent
+2024-06-01,Actual,operating_margin,-0.0575,percent
+2024-07-01,Actual,operating_margin,0.0067,percent
+2024-08-01,Actual,operating_margin,-0.0041,percent
+2024-09-01,Actual,operating_margin,-0.0003,percent
+2024-10-01,Actual,operating_margin,-0.022,percent
+2024-11-01,Actual,operating_margin,0.0004,percent
+2024-12-01,Actual,operating_margin,-0.0296,percent
+2025-01-01,Actual,operating_margin,-0.0256,percent
+2025-02-01,Actual,operating_margin,-0.0173,percent
+2025-03-01,Actual,operating_margin,0.0562,percent
+2025-04-01,Actual,operating_margin,-0.0554,percent
+2025-05-01,Actual,operating_margin,0.0219,percent
+2025-06-01,Actual,operating_margin,-0.0471,percent
+2025-07-01,Actual,operating_margin,-0.0465,percent
+2025-08-01,Actual,operating_margin,0.0246,percent
+2025-09-01,Actual,operating_margin,-0.0202,percent
+2025-10-01,Actual,operating_margin,-0.0155,percent
+2025-11-01,Actual,operating_margin,0.0029,percent
+2025-12-01,Actual,operating_margin,-0.0582,percent
+2024-01-01,Actual,research_development,68306.9,currency
+2024-02-01,Actual,research_development,74903.44,currency
+2024-03-01,Actual,research_development,70299.18,currency
+2024-04-01,Actual,research_development,75257.29,currency
+2024-05-01,Actual,research_development,88755.06,currency
+2024-06-01,Actual,research_development,94149.8,currency
+2024-07-01,Actual,research_development,98415.03,currency
+2024-08-01,Actual,research_development,103595.02,currency
+2024-09-01,Actual,research_development,101767.87,currency
+2024-10-01,Actual,research_development,113105.94,currency
+2024-11-01,Actual,research_development,119073.86,currency
+2024-12-01,Actual,research_development,116454.48,currency
+2025-01-01,Actual,research_development,143478.51,currency
+2025-02-01,Actual,research_development,139830.65,currency
+2025-03-01,Actual,research_development,133580.01,currency
+2025-04-01,Actual,research_development,157417.43,currency
+2025-05-01,Actual,research_development,151062.81,currency
+2025-06-01,Actual,research_development,177786.39,currency
+2025-07-01,Actual,research_development,189322.34,currency
+2025-08-01,Actual,research_development,175052.11,currency
+2025-09-01,Actual,research_development,202021.57,currency
+2025-10-01,Actual,research_development,203124.63,currency
+2025-11-01,Actual,research_development,216217.48,currency
+2025-12-01,Actual,research_development,238222.12,currency
+2024-01-01,Actual,revenue,269032.59,currency
+2024-02-01,Actual,revenue,286188.82,currency
+2024-03-01,Actual,revenue,303739.35,currency
+2024-04-01,Actual,revenue,326931.06,currency
+2024-05-01,Actual,revenue,344239.87,currency
+2024-06-01,Actual,revenue,370006.02,currency
+2024-07-01,Actual,revenue,387831.17,currency
+2024-08-01,Actual,revenue,405941.81,currency
+2024-09-01,Actual,revenue,424387.12,currency
+2024-10-01,Actual,revenue,446205.8,currency
+2024-11-01,Actual,revenue,468064.83,currency
+2024-12-01,Actual,revenue,486677.44,currency
+2025-01-01,Actual,revenue,516134.58,currency
+2025-02-01,Actual,revenue,543860.65,currency
+2025-03-01,Actual,revenue,575452.35,currency
+2025-04-01,Actual,revenue,605805.1,currency
+2025-05-01,Actual,revenue,641783.31,currency
+2025-06-01,Actual,revenue,679076.14,currency
+2025-07-01,Actual,revenue,708067.51,currency
+2025-08-01,Actual,revenue,736473.08,currency
+2025-09-01,Actual,revenue,763929.22,currency
+2025-10-01,Actual,revenue,792861.84,currency
+2025-11-01,Actual,revenue,824216.58,currency
+2025-12-01,Actual,revenue,855523.44,currency
+2024-01-01,Actual,sales_marketing,111869.3,currency
+2024-02-01,Actual,sales_marketing,109270.4,currency
+2024-03-01,Actual,sales_marketing,130017.42,currency
+2024-04-01,Actual,sales_marketing,121606.25,currency
+2024-05-01,Actual,sales_marketing,141736.34,currency
+2024-06-01,Actual,sales_marketing,164212.04,currency
+2024-07-01,Actual,sales_marketing,147449.25,currency
+2024-08-01,Actual,sales_marketing,157779.05,currency
+2024-09-01,Actual,sales_marketing,170600.66,currency
+2024-10-01,Actual,sales_marketing,173989.24,currency
+2024-11-01,Actual,sales_marketing,172709.71,currency
+2024-12-01,Actual,sales_marketing,195338.34,currency
+2025-01-01,Actual,sales_marketing,195488.0,currency
+2025-02-01,Actual,sales_marketing,222695.63,currency
+2025-03-01,Actual,sales_marketing,219599.24,currency
+2025-04-01,Actual,sales_marketing,261101.2,currency
+2025-05-01,Actual,sales_marketing,246659.75,currency
+2025-06-01,Actual,sales_marketing,267256.37,currency
+2025-07-01,Actual,sales_marketing,294747.51,currency
+2025-08-01,Actual,sales_marketing,276459.26,currency
+2025-09-01,Actual,sales_marketing,309046.95,currency
+2025-10-01,Actual,sales_marketing,337872.41,currency
+2025-11-01,Actual,sales_marketing,303188.35,currency
+2025-12-01,Actual,sales_marketing,345368.55,currency
+2024-01-01,Actual,total_opex,217180.59000000003,currency
+2024-02-01,Actual,total_opex,222083.17,currency
+2024-03-01,Actual,total_opex,240138.3,currency
+2024-04-01,Actual,total_opex,239966.75,currency
+2024-05-01,Actual,total_opex,278419.57,currency
+2024-06-01,Actual,total_opex,311424.97000000003,currency
+2024-07-01,Actual,total_opex,301233.74,currency
+2024-08-01,Actual,total_opex,321563.81,currency
+2024-09-01,Actual,total_opex,331837.91000000003,currency
+2024-10-01,Actual,total_opex,356049.75,currency
+2024-11-01,Actual,total_opex,356073.88,currency
+2024-12-01,Actual,total_opex,393166.11,currency
+2025-01-01,Actual,total_opex,414454.64,currency
+2025-02-01,Actual,total_opex,434005.03,currency
+2025-03-01,Actual,total_opex,427580.1,currency
+2025-04-01,Actual,total_opex,506254.19,currency
+2025-05-01,Actual,total_opex,486138.08,currency
+2025-06-01,Actual,total_opex,544962.03,currency
+2025-07-01,Actual,total_opex,586550.14,currency
+2025-08-01,Actual,total_opex,554081.24,currency
+2025-09-01,Actual,total_opex,611549.71,currency
+2025-10-01,Actual,total_opex,639987.05,currency
+2025-11-01,Actual,total_opex,631115.8999999999,currency
+2025-12-01,Actual,total_opex,710690.6399999999,currency
+2025-01-01,Budget,arr,6044533.800000001,currency
+2025-02-01,Budget,arr,6256092.4799999995,currency
+2025-03-01,Budget,arr,6475055.76,currency
+2025-04-01,Budget,arr,6701682.720000001,currency
+2025-05-01,Budget,arr,6936241.5600000005,currency
+2025-06-01,Budget,arr,7179010.08,currency
+2025-07-01,Budget,arr,7430275.32,currency
+2025-08-01,Budget,arr,7690335.0,currency
+2025-09-01,Budget,arr,7959496.68,currency
+2025-10-01,Budget,arr,8238079.08,currency
+2025-11-01,Budget,arr,8526411.84,currency
+2025-12-01,Budget,arr,8824836.36,currency
+2025-01-01,Budget,cogs,100742.23,currency
+2025-02-01,Budget,cogs,104268.21,currency
+2025-03-01,Budget,cogs,107917.6,currency
+2025-04-01,Budget,cogs,111694.71,currency
+2025-05-01,Budget,cogs,115604.03,currency
+2025-06-01,Budget,cogs,119650.17,currency
+2025-07-01,Budget,cogs,123837.92,currency
+2025-08-01,Budget,cogs,128172.25,currency
+2025-09-01,Budget,cogs,132658.28,currency
+2025-10-01,Budget,cogs,137301.32,currency
+2025-11-01,Budget,cogs,142106.86,currency
+2025-12-01,Budget,cogs,147080.61,currency
+2025-01-01,Budget,gross_profit,402968.92000000004,currency
+2025-02-01,Budget,gross_profit,417072.82999999996,currency
+2025-03-01,Budget,gross_profit,431670.38,currency
+2025-04-01,Budget,gross_profit,446778.85000000003,currency
+2025-05-01,Budget,gross_profit,462416.1,currency
+2025-06-01,Budget,gross_profit,478600.67,currency
+2025-07-01,Budget,gross_profit,495351.69,currency
+2025-08-01,Budget,gross_profit,512689.0,currency
+2025-09-01,Budget,gross_profit,530633.11,currency
+2025-10-01,Budget,gross_profit,549205.27,currency
+2025-11-01,Budget,gross_profit,568427.46,currency
+2025-12-01,Budget,gross_profit,588322.42,currency
+2025-01-01,Budget,mrr,503711.15,currency
+2025-02-01,Budget,mrr,521341.04,currency
+2025-03-01,Budget,mrr,539587.98,currency
+2025-04-01,Budget,mrr,558473.56,currency
+2025-05-01,Budget,mrr,578020.13,currency
+2025-06-01,Budget,mrr,598250.84,currency
+2025-07-01,Budget,mrr,619189.61,currency
+2025-08-01,Budget,mrr,640861.25,currency
+2025-09-01,Budget,mrr,663291.39,currency
+2025-10-01,Budget,mrr,686506.59,currency
+2025-11-01,Budget,mrr,710534.32,currency
+2025-12-01,Budget,mrr,735403.03,currency
+2025-01-01,Budget,operating_income,25185.55,currency
+2025-02-01,Budget,operating_income,26067.04,currency
+2025-03-01,Budget,operating_income,26979.4,currency
+2025-04-01,Budget,operating_income,27923.69,currency
+2025-05-01,Budget,operating_income,28901.0,currency
+2025-06-01,Budget,operating_income,29912.54,currency
+2025-07-01,Budget,operating_income,30959.48,currency
+2025-08-01,Budget,operating_income,32043.06,currency
+2025-09-01,Budget,operating_income,33164.57,currency
+2025-10-01,Budget,operating_income,34325.32,currency
+2025-11-01,Budget,operating_income,35526.72,currency
+2025-12-01,Budget,operating_income,36770.15,currency
+2025-01-01,Budget,operating_margin,0.049999985110514227,percent
+2025-02-01,Budget,operating_margin,0.04999997698243745,percent
+2025-03-01,Budget,operating_margin,0.0500000018532659,percent
+2025-04-01,Budget,operating_margin,0.050000021487140764,percent
+2025-05-01,Budget,operating_margin,0.049999988754716895,percent
+2025-06-01,Budget,operating_margin,0.0499999966569207,percent
+2025-07-01,Budget,operating_margin,0.049999999192492914,percent
+2025-08-01,Budget,operating_margin,0.04999999609899959,percent
+2025-09-01,Budget,operating_margin,0.050000000753816505,percent
+2025-10-01,Budget,operating_margin,0.04999998616182257,percent
+2025-11-01,Budget,operating_margin,0.05000000562956622,percent
+2025-12-01,Budget,operating_margin,0.04999999796030212,percent
+2025-01-01,Budget,revenue,503711.15,currency
+2025-02-01,Budget,revenue,521341.04,currency
+2025-03-01,Budget,revenue,539587.98,currency
+2025-04-01,Budget,revenue,558473.56,currency
+2025-05-01,Budget,revenue,578020.13,currency
+2025-06-01,Budget,revenue,598250.84,currency
+2025-07-01,Budget,revenue,619189.61,currency
+2025-08-01,Budget,revenue,640861.25,currency
+2025-09-01,Budget,revenue,663291.39,currency
+2025-10-01,Budget,revenue,686506.59,currency
+2025-11-01,Budget,revenue,710534.32,currency
+2025-12-01,Budget,revenue,735403.03,currency
+2025-01-01,Budget,total_opex,377783.37,currency
+2025-02-01,Budget,total_opex,391005.79,currency
+2025-03-01,Budget,total_opex,404690.98,currency
+2025-04-01,Budget,total_opex,418855.16,currency
+2025-05-01,Budget,total_opex,433515.1,currency
+2025-06-01,Budget,total_opex,448688.13,currency
+2025-07-01,Budget,total_opex,464392.21,currency
+2025-08-01,Budget,total_opex,480645.94,currency
+2025-09-01,Budget,total_opex,497468.54,currency
+2025-10-01,Budget,total_opex,514879.95,currency
+2025-11-01,Budget,total_opex,532900.74,currency
+2025-12-01,Budget,total_opex,551552.27,currency
+2026-01-01,Forecast,arpu,1219.846641501828,currency
+2026-02-01,Forecast,arpu,1222.7355727636618,currency
+2026-03-01,Forecast,arpu,1225.6100593691867,currency
+2026-04-01,Forecast,arpu,1228.470173541684,currency
+2026-05-01,Forecast,arpu,1231.3159871433186,currency
+2026-06-01,Forecast,arpu,1234.1475716769453,currency
+2026-07-01,Forecast,arpu,1236.9649982879037,currency
+2026-08-01,Forecast,arpu,1239.7683377658072,currency
+2026-09-01,Forecast,arpu,1242.5576605463214,currency
+2026-10-01,Forecast,arpu,1245.3330367129329,currency
+2026-11-01,Forecast,arpu,1248.0945359987113,currency
+2026-12-01,Forecast,arpu,1250.8422277880609,currency
+2026-01-01,Forecast,arr,10653272.634604588,currency
+2026-02-01,Forecast,arr,11043402.027283065,currency
+2026-03-01,Forecast,arr,11421946.44713263,currency
+2026-04-01,Forecast,arr,11818304.92383873,currency
+2026-05-01,Forecast,arr,12217754.603008213,currency
+2026-06-01,Forecast,arr,12620280.028628755,currency
+2026-07-01,Forecast,arr,13025865.82196811,currency
+2026-08-01,Forecast,arr,13434496.681187678,currency
+2026-09-01,Forecast,arr,13846157.380958058,currency
+2026-10-01,Forecast,arr,14260832.7720765,currency
+2026-11-01,Forecast,arr,14678507.781086262,currency
+2026-12-01,Forecast,arr,15084157.30316443,currency
+2026-01-01,Forecast,churned_customers,11.0,count
+2026-02-01,Forecast,churned_customers,11.0,count
+2026-03-01,Forecast,churned_customers,12.0,count
+2026-04-01,Forecast,churned_customers,12.0,count
+2026-05-01,Forecast,churned_customers,12.0,count
+2026-06-01,Forecast,churned_customers,13.0,count
+2026-07-01,Forecast,churned_customers,13.0,count
+2026-08-01,Forecast,churned_customers,13.0,count
+2026-09-01,Forecast,churned_customers,14.0,count
+2026-10-01,Forecast,churned_customers,14.0,count
+2026-11-01,Forecast,churned_customers,14.0,count
+2026-12-01,Forecast,churned_customers,15.0,count
+2026-01-01,Forecast,ending_customers,645.0,count
+2026-02-01,Forecast,ending_customers,665.0,count
+2026-03-01,Forecast,ending_customers,684.0,count
+2026-04-01,Forecast,ending_customers,704.0,count
+2026-05-01,Forecast,ending_customers,724.0,count
+2026-06-01,Forecast,ending_customers,744.0,count
+2026-07-01,Forecast,ending_customers,764.0,count
+2026-08-01,Forecast,ending_customers,784.0,count
+2026-09-01,Forecast,ending_customers,804.0,count
+2026-10-01,Forecast,ending_customers,824.0,count
+2026-11-01,Forecast,ending_customers,844.0,count
+2026-12-01,Forecast,ending_customers,863.0,count
+2026-01-01,Forecast,expansion_mrr,7852.346720345806,currency
+2026-02-01,Forecast,expansion_mrr,8056.071267933205,currency
+2026-03-01,Forecast,expansion_mrr,8258.777192782667,currency
+2026-04-01,Forecast,expansion_mrr,8460.469588007882,currency
+2026-05-01,Forecast,expansion_mrr,8661.153521256969,currency
+2026-06-01,Forecast,expansion_mrr,8860.834034839812,currency
+2026-07-01,Forecast,expansion_mrr,9059.51614585474,currency
+2026-08-01,Forecast,expansion_mrr,9257.204846314595,currency
+2026-09-01,Forecast,expansion_mrr,9453.90510327215,currency
+2026-10-01,Forecast,expansion_mrr,9649.621858944916,currency
+2026-11-01,Forecast,expansion_mrr,9844.36003083932,currency
+2026-12-01,Forecast,expansion_mrr,10038.124511874252,currency
+2026-01-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-02-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-03-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-04-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-05-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-06-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-07-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-08-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-09-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-10-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-11-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-12-01,Forecast,logo_churn_rate,0.01736521239113866,percent
+2026-01-01,Forecast,mrr,887772.7195503823,currency
+2026-02-01,Forecast,mrr,920283.5022735888,currency
+2026-03-01,Forecast,mrr,951828.8705943859,currency
+2026-04-01,Forecast,mrr,984858.7436532276,currency
+2026-05-01,Forecast,mrr,1018146.216917351,currency
+2026-06-01,Forecast,mrr,1051690.0023857297,currency
+2026-07-01,Forecast,mrr,1085488.8184973425,currency
+2026-08-01,Forecast,mrr,1119541.3900989732,currency
+2026-09-01,Forecast,mrr,1153846.4484131716,currency
+2026-10-01,Forecast,mrr,1188402.731006375,currency
+2026-11-01,Forecast,mrr,1223208.9817571884,currency
+2026-12-01,Forecast,mrr,1257013.1085970358,currency
+2026-01-01,Forecast,net_revenue_retention,0.993494080844618,percent
+2026-02-01,Forecast,net_revenue_retention,0.9939240980110327,percent
+2026-03-01,Forecast,net_revenue_retention,0.9929928728443829,percent
+2026-04-01,Forecast,net_revenue_retention,0.9934009435009364,percent
+2026-05-01,Forecast,net_revenue_retention,0.9937913549898727,percent
+2026-06-01,Forecast,net_revenue_retention,0.9929449382833156,percent
+2026-07-01,Forecast,net_revenue_retention,0.9933240509884462,percent
+2026-08-01,Forecast,net_revenue_retention,0.9936804659543733,percent
+2026-09-01,Forecast,net_revenue_retention,0.9929061111856934,percent
+2026-10-01,Forecast,net_revenue_retention,0.993252966488095,percent
+2026-11-01,Forecast,net_revenue_retention,0.9935804897833899,percent
+2026-12-01,Forecast,net_revenue_retention,0.9928675238368397,percent
+2026-01-01,Forecast,new_customers,31.0,count
+2026-02-01,Forecast,new_customers,31.0,count
+2026-03-01,Forecast,new_customers,31.0,count
+2026-04-01,Forecast,new_customers,32.0,count
+2026-05-01,Forecast,new_customers,32.0,count
+2026-06-01,Forecast,new_customers,33.0,count
+2026-07-01,Forecast,new_customers,33.0,count
+2026-08-01,Forecast,new_customers,33.0,count
+2026-09-01,Forecast,new_customers,34.0,count
+2026-10-01,Forecast,new_customers,34.0,count
+2026-11-01,Forecast,new_customers,34.0,count
+2026-12-01,Forecast,new_customers,34.0,count
+2026-01-01,Forecast,revenue,887772.7195503823,currency
+2026-02-01,Forecast,revenue,920283.5022735888,currency
+2026-03-01,Forecast,revenue,951828.8705943859,currency
+2026-04-01,Forecast,revenue,984858.7436532276,currency
+2026-05-01,Forecast,revenue,1018146.216917351,currency
+2026-06-01,Forecast,revenue,1051690.0023857297,currency
+2026-07-01,Forecast,revenue,1085488.8184973425,currency
+2026-08-01,Forecast,revenue,1119541.3900989732,currency
+2026-09-01,Forecast,revenue,1153846.4484131716,currency
+2026-10-01,Forecast,revenue,1188402.731006375,currency
+2026-11-01,Forecast,revenue,1223208.9817571884,currency
+2026-12-01,Forecast,revenue,1257013.1085970358,currency
+2026-01-01,Scenario: Base,arr,10653272.634604588,currency
+2026-02-01,Scenario: Base,arr,11043402.027283065,currency
+2026-03-01,Scenario: Base,arr,11421946.44713263,currency
+2026-04-01,Scenario: Base,arr,11818304.92383873,currency
+2026-05-01,Scenario: Base,arr,12217754.603008213,currency
+2026-06-01,Scenario: Base,arr,12620280.028628755,currency
+2026-07-01,Scenario: Base,arr,13025865.82196811,currency
+2026-08-01,Scenario: Base,arr,13434496.681187678,currency
+2026-09-01,Scenario: Base,arr,13846157.380958058,currency
+2026-10-01,Scenario: Base,arr,14260832.7720765,currency
+2026-11-01,Scenario: Base,arr,14678507.781086262,currency
+2026-12-01,Scenario: Base,arr,15084157.30316443,currency
+2026-01-01,Scenario: Base,churned_customers,11.0,count
+2026-02-01,Scenario: Base,churned_customers,11.0,count
+2026-03-01,Scenario: Base,churned_customers,12.0,count
+2026-04-01,Scenario: Base,churned_customers,12.0,count
+2026-05-01,Scenario: Base,churned_customers,12.0,count
+2026-06-01,Scenario: Base,churned_customers,13.0,count
+2026-07-01,Scenario: Base,churned_customers,13.0,count
+2026-08-01,Scenario: Base,churned_customers,13.0,count
+2026-09-01,Scenario: Base,churned_customers,14.0,count
+2026-10-01,Scenario: Base,churned_customers,14.0,count
+2026-11-01,Scenario: Base,churned_customers,14.0,count
+2026-12-01,Scenario: Base,churned_customers,15.0,count
+2026-01-01,Scenario: Base,cogs,197085.5437401849,currency
+2026-02-01,Scenario: Base,cogs,204302.9375047367,currency
+2026-03-01,Scenario: Base,cogs,211306.00927195366,currency
+2026-04-01,Scenario: Base,cogs,218638.64109101653,currency
+2026-05-01,Scenario: Base,cogs,226028.46015565193,currency
+2026-06-01,Scenario: Base,cogs,233475.180529632,currency
+2026-07-01,Scenario: Base,cogs,240978.51770641006,currency
+2026-08-01,Scenario: Base,cogs,248538.18860197204,currency
+2026-09-01,Scenario: Base,cogs,256153.9115477241,currency
+2026-10-01,Scenario: Base,cogs,263825.4062834153,currency
+2026-11-01,Scenario: Base,cogs,271552.39395009587,currency
+2026-12-01,Scenario: Base,cogs,279056.91010854195,currency
+2026-01-01,Scenario: Base,ending_customers,645.0,count
+2026-02-01,Scenario: Base,ending_customers,665.0,count
+2026-03-01,Scenario: Base,ending_customers,684.0,count
+2026-04-01,Scenario: Base,ending_customers,704.0,count
+2026-05-01,Scenario: Base,ending_customers,724.0,count
+2026-06-01,Scenario: Base,ending_customers,744.0,count
+2026-07-01,Scenario: Base,ending_customers,764.0,count
+2026-08-01,Scenario: Base,ending_customers,784.0,count
+2026-09-01,Scenario: Base,ending_customers,804.0,count
+2026-10-01,Scenario: Base,ending_customers,824.0,count
+2026-11-01,Scenario: Base,ending_customers,844.0,count
+2026-12-01,Scenario: Base,ending_customers,863.0,count
+2026-01-01,Scenario: Base,mrr,887772.7195503823,currency
+2026-02-01,Scenario: Base,mrr,920283.5022735888,currency
+2026-03-01,Scenario: Base,mrr,951828.8705943859,currency
+2026-04-01,Scenario: Base,mrr,984858.7436532276,currency
+2026-05-01,Scenario: Base,mrr,1018146.216917351,currency
+2026-06-01,Scenario: Base,mrr,1051690.0023857297,currency
+2026-07-01,Scenario: Base,mrr,1085488.8184973425,currency
+2026-08-01,Scenario: Base,mrr,1119541.3900989732,currency
+2026-09-01,Scenario: Base,mrr,1153846.4484131716,currency
+2026-10-01,Scenario: Base,mrr,1188402.731006375,currency
+2026-11-01,Scenario: Base,mrr,1223208.9817571884,currency
+2026-12-01,Scenario: Base,mrr,1257013.1085970358,currency
+2026-01-01,Scenario: Base,new_customers,31.0,count
+2026-02-01,Scenario: Base,new_customers,31.0,count
+2026-03-01,Scenario: Base,new_customers,31.0,count
+2026-04-01,Scenario: Base,new_customers,32.0,count
+2026-05-01,Scenario: Base,new_customers,32.0,count
+2026-06-01,Scenario: Base,new_customers,33.0,count
+2026-07-01,Scenario: Base,new_customers,33.0,count
+2026-08-01,Scenario: Base,new_customers,33.0,count
+2026-09-01,Scenario: Base,new_customers,34.0,count
+2026-10-01,Scenario: Base,new_customers,34.0,count
+2026-11-01,Scenario: Base,new_customers,34.0,count
+2026-12-01,Scenario: Base,new_customers,34.0,count
+2026-01-01,Scenario: Base,operating_income,33735.363342914614,currency
+2026-02-01,Scenario: Base,operating_income,34970.773086396395,currency
+2026-03-01,Scenario: Base,operating_income,36169.49708258675,currency
+2026-04-01,Scenario: Base,operating_income,37424.63225882256,currency
+2026-05-01,Scenario: Base,operating_income,38689.55624285934,currency
+2026-06-01,Scenario: Base,operating_income,39964.220090657705,currency
+2026-07-01,Scenario: Base,operating_income,41248.57510289899,currency
+2026-08-01,Scenario: Base,operating_income,42542.572823760915,currency
+2026-09-01,Scenario: Base,operating_income,43846.165039700456,currency
+2026-10-01,Scenario: Base,operating_income,45159.3037782422,currency
+2026-11-01,Scenario: Base,operating_income,46481.94130677311,currency
+2026-12-01,Scenario: Base,operating_income,47766.498126687366,currency
+2026-01-01,Scenario: Base,operating_margin,0.038000000000000096,percent
+2026-02-01,Scenario: Base,operating_margin,0.03800000000000002,percent
+2026-03-01,Scenario: Base,operating_margin,0.03800000000000009,percent
+2026-04-01,Scenario: Base,operating_margin,0.03799999999999991,percent
+2026-05-01,Scenario: Base,operating_margin,0.038,percent
+2026-06-01,Scenario: Base,operating_margin,0.03799999999999998,percent
+2026-07-01,Scenario: Base,operating_margin,0.03799999999999998,percent
+2026-08-01,Scenario: Base,operating_margin,0.037999999999999944,percent
+2026-09-01,Scenario: Base,operating_margin,0.037999999999999944,percent
+2026-10-01,Scenario: Base,operating_margin,0.03799999999999996,percent
+2026-11-01,Scenario: Base,operating_margin,0.03799999999999996,percent
+2026-12-01,Scenario: Base,operating_margin,0.038000000000000006,percent
+2026-01-01,Scenario: Base,revenue,887772.7195503823,currency
+2026-02-01,Scenario: Base,revenue,920283.5022735888,currency
+2026-03-01,Scenario: Base,revenue,951828.8705943859,currency
+2026-04-01,Scenario: Base,revenue,984858.7436532276,currency
+2026-05-01,Scenario: Base,revenue,1018146.216917351,currency
+2026-06-01,Scenario: Base,revenue,1051690.0023857297,currency
+2026-07-01,Scenario: Base,revenue,1085488.8184973425,currency
+2026-08-01,Scenario: Base,revenue,1119541.3900989732,currency
+2026-09-01,Scenario: Base,revenue,1153846.4484131716,currency
+2026-10-01,Scenario: Base,revenue,1188402.731006375,currency
+2026-11-01,Scenario: Base,revenue,1223208.9817571884,currency
+2026-12-01,Scenario: Base,revenue,1257013.1085970358,currency
+2026-01-01,Scenario: Base,total_opex,656951.8124672829,currency
+2026-02-01,Scenario: Base,total_opex,681009.7916824557,currency
+2026-03-01,Scenario: Base,total_opex,704353.3642398455,currency
+2026-04-01,Scenario: Base,total_opex,728795.4703033884,currency
+2026-05-01,Scenario: Base,total_opex,753428.2005188398,currency
+2026-06-01,Scenario: Base,total_opex,778250.60176544,currency
+2026-07-01,Scenario: Base,total_opex,803261.7256880335,currency
+2026-08-01,Scenario: Base,total_opex,828460.6286732402,currency
+2026-09-01,Scenario: Base,total_opex,853846.371825747,currency
+2026-10-01,Scenario: Base,total_opex,879418.0209447176,currency
+2026-11-01,Scenario: Base,total_opex,905174.6465003195,currency
+2026-12-01,Scenario: Base,total_opex,930189.7003618064,currency
+2026-01-01,Scenario: Downside,arr,10449112.05947991,currency
+2026-02-01,Scenario: Downside,arr,10633696.612186382,currency
+2026-03-01,Scenario: Downside,arr,10820024.365872521,currency
+2026-04-01,Scenario: Downside,arr,11008084.808601815,currency
+2026-05-01,Scenario: Downside,arr,11197867.488404812,currency
+2026-06-01,Scenario: Downside,arr,11403994.952767842,currency
+2026-07-01,Scenario: Downside,arr,11611828.001546068,currency
+2026-08-01,Scenario: Downside,arr,11821356.119448744,currency
+2026-09-01,Scenario: Downside,arr,12032568.85191,currency
+2026-10-01,Scenario: Downside,arr,12245455.804739762,currency
+2026-11-01,Scenario: Downside,arr,12460006.643776685,currency
+2026-12-01,Scenario: Downside,arr,12676211.094543125,currency
+2026-01-01,Scenario: Downside,churned_customers,15.0,count
+2026-02-01,Scenario: Downside,churned_customers,15.0,count
+2026-03-01,Scenario: Downside,churned_customers,15.0,count
+2026-04-01,Scenario: Downside,churned_customers,16.0,count
+2026-05-01,Scenario: Downside,churned_customers,16.0,count
+2026-06-01,Scenario: Downside,churned_customers,16.0,count
+2026-07-01,Scenario: Downside,churned_customers,16.0,count
+2026-08-01,Scenario: Downside,churned_customers,16.0,count
+2026-09-01,Scenario: Downside,churned_customers,17.0,count
+2026-10-01,Scenario: Downside,churned_customers,17.0,count
+2026-11-01,Scenario: Downside,churned_customers,17.0,count
+2026-12-01,Scenario: Downside,churned_customers,17.0,count
+2026-01-01,Scenario: Downside,cogs,208982.24118959822,currency
+2026-02-01,Scenario: Downside,cogs,212673.9322437276,currency
+2026-03-01,Scenario: Downside,cogs,216400.4873174504,currency
+2026-04-01,Scenario: Downside,cogs,220161.6961720363,currency
+2026-05-01,Scenario: Downside,cogs,223957.34976809623,currency
+2026-06-01,Scenario: Downside,cogs,228079.8990553568,currency
+2026-07-01,Scenario: Downside,cogs,232236.56003092133,currency
+2026-08-01,Scenario: Downside,cogs,236427.12238897485,currency
+2026-09-01,Scenario: Downside,cogs,240651.3770382,currency
+2026-10-01,Scenario: Downside,cogs,244909.11609479523,currency
+2026-11-01,Scenario: Downside,cogs,249200.1328755337,currency
+2026-12-01,Scenario: Downside,cogs,253524.22189086248,currency
+2026-01-01,Scenario: Downside,ending_customers,633.0,count
+2026-02-01,Scenario: Downside,ending_customers,641.0,count
+2026-03-01,Scenario: Downside,ending_customers,649.0,count
+2026-04-01,Scenario: Downside,ending_customers,657.0,count
+2026-05-01,Scenario: Downside,ending_customers,665.0,count
+2026-06-01,Scenario: Downside,ending_customers,674.0,count
+2026-07-01,Scenario: Downside,ending_customers,683.0,count
+2026-08-01,Scenario: Downside,ending_customers,692.0,count
+2026-09-01,Scenario: Downside,ending_customers,701.0,count
+2026-10-01,Scenario: Downside,ending_customers,710.0,count
+2026-11-01,Scenario: Downside,ending_customers,719.0,count
+2026-12-01,Scenario: Downside,ending_customers,728.0,count
+2026-01-01,Scenario: Downside,mrr,870759.3382899927,currency
+2026-02-01,Scenario: Downside,mrr,886141.3843488651,currency
+2026-03-01,Scenario: Downside,mrr,901668.6971560434,currency
+2026-04-01,Scenario: Downside,mrr,917340.4007168179,currency
+2026-05-01,Scenario: Downside,mrr,933155.6240337343,currency
+2026-06-01,Scenario: Downside,mrr,950332.9127306534,currency
+2026-07-01,Scenario: Downside,mrr,967652.3334621723,currency
+2026-08-01,Scenario: Downside,mrr,985113.0099540619,currency
+2026-09-01,Scenario: Downside,mrr,1002714.0709925,currency
+2026-10-01,Scenario: Downside,mrr,1020454.6503949802,currency
+2026-11-01,Scenario: Downside,mrr,1038333.8869813904,currency
+2026-12-01,Scenario: Downside,mrr,1056350.9245452604,currency
+2026-01-01,Scenario: Downside,new_customers,23.0,count
+2026-02-01,Scenario: Downside,new_customers,23.0,count
+2026-03-01,Scenario: Downside,new_customers,23.0,count
+2026-04-01,Scenario: Downside,new_customers,24.0,count
+2026-05-01,Scenario: Downside,new_customers,24.0,count
+2026-06-01,Scenario: Downside,new_customers,25.0,count
+2026-07-01,Scenario: Downside,new_customers,25.0,count
+2026-08-01,Scenario: Downside,new_customers,25.0,count
+2026-09-01,Scenario: Downside,new_customers,26.0,count
+2026-10-01,Scenario: Downside,new_customers,26.0,count
+2026-11-01,Scenario: Downside,new_customers,26.0,count
+2026-12-01,Scenario: Downside,new_customers,26.0,count
+2026-01-01,Scenario: Downside,operating_income,-34830.37353159976,currency
+2026-02-01,Scenario: Downside,operating_income,-35445.65537395468,currency
+2026-03-01,Scenario: Downside,operating_income,-36066.74788624188,currency
+2026-04-01,Scenario: Downside,operating_income,-36693.616028672666,currency
+2026-05-01,Scenario: Downside,operating_income,-37326.22496134939,currency
+2026-06-01,Scenario: Downside,operating_income,-38013.316509226104,currency
+2026-07-01,Scenario: Downside,operating_income,-38706.09333848697,currency
+2026-08-01,Scenario: Downside,operating_income,-39404.52039816254,currency
+2026-09-01,Scenario: Downside,operating_income,-40108.562839700026,currency
+2026-10-01,Scenario: Downside,operating_income,-40818.186015799176,currency
+2026-11-01,Scenario: Downside,operating_income,-41533.35547925567,currency
+2026-12-01,Scenario: Downside,operating_income,-42254.03698181047,currency
+2026-01-01,Scenario: Downside,operating_margin,-0.04000000000000006,percent
+2026-02-01,Scenario: Downside,operating_margin,-0.040000000000000084,percent
+2026-03-01,Scenario: Downside,operating_margin,-0.04000000000000016,percent
+2026-04-01,Scenario: Downside,operating_margin,-0.039999999999999945,percent
+2026-05-01,Scenario: Downside,operating_margin,-0.04000000000000002,percent
+2026-06-01,Scenario: Downside,operating_margin,-0.039999999999999966,percent
+2026-07-01,Scenario: Downside,operating_margin,-0.040000000000000084,percent
+2026-08-01,Scenario: Downside,operating_margin,-0.04000000000000006,percent
+2026-09-01,Scenario: Downside,operating_margin,-0.04000000000000002,percent
+2026-10-01,Scenario: Downside,operating_margin,-0.039999999999999966,percent
+2026-11-01,Scenario: Downside,operating_margin,-0.04000000000000005,percent
+2026-12-01,Scenario: Downside,operating_margin,-0.04000000000000005,percent
+2026-01-01,Scenario: Downside,revenue,870759.3382899927,currency
+2026-02-01,Scenario: Downside,revenue,886141.3843488651,currency
+2026-03-01,Scenario: Downside,revenue,901668.6971560434,currency
+2026-04-01,Scenario: Downside,revenue,917340.4007168179,currency
+2026-05-01,Scenario: Downside,revenue,933155.6240337343,currency
+2026-06-01,Scenario: Downside,revenue,950332.9127306534,currency
+2026-07-01,Scenario: Downside,revenue,967652.3334621723,currency
+2026-08-01,Scenario: Downside,revenue,985113.0099540619,currency
+2026-09-01,Scenario: Downside,revenue,1002714.0709925,currency
+2026-10-01,Scenario: Downside,revenue,1020454.6503949802,currency
+2026-11-01,Scenario: Downside,revenue,1038333.8869813904,currency
+2026-12-01,Scenario: Downside,revenue,1056350.9245452604,currency
+2026-01-01,Scenario: Downside,total_opex,696607.4706319942,currency
+2026-02-01,Scenario: Downside,total_opex,708913.1074790922,currency
+2026-03-01,Scenario: Downside,total_opex,721334.9577248348,currency
+2026-04-01,Scenario: Downside,total_opex,733872.3205734544,currency
+2026-05-01,Scenario: Downside,total_opex,746524.4992269875,currency
+2026-06-01,Scenario: Downside,total_opex,760266.3301845228,currency
+2026-07-01,Scenario: Downside,total_opex,774121.8667697379,currency
+2026-08-01,Scenario: Downside,total_opex,788090.4079632496,currency
+2026-09-01,Scenario: Downside,total_opex,802171.256794,currency
+2026-10-01,Scenario: Downside,total_opex,816363.7203159842,currency
+2026-11-01,Scenario: Downside,total_opex,830667.1095851124,currency
+2026-12-01,Scenario: Downside,total_opex,845080.7396362084,currency
+2026-01-01,Scenario: Upside,arr,10814133.533342514,currency
+2026-02-01,Scenario: Upside,arr,11352292.397537267,currency
+2026-03-01,Scenario: Upside,arr,11895410.076526612,currency
+2026-04-01,Scenario: Upside,arr,12458331.357325155,currency
+2026-05-01,Scenario: Upside,arr,13011321.327671472,currency
+2026-06-01,Scenario: Upside,arr,13599201.710709482,currency
+2026-07-01,Scenario: Upside,arr,14192109.396317124,currency
+2026-08-01,Scenario: Upside,arr,14774912.718546372,currency
+2026-09-01,Scenario: Upside,arr,15377830.885286711,currency
+2026-10-01,Scenario: Upside,arr,15970486.826159798,currency
+2026-11-01,Scenario: Upside,arr,16568047.282678166,currency
+2026-12-01,Scenario: Upside,arr,17170497.84157172,currency
+2026-01-01,Scenario: Upside,churned_customers,8.0,count
+2026-02-01,Scenario: Upside,churned_customers,9.0,count
+2026-03-01,Scenario: Upside,churned_customers,9.0,count
+2026-04-01,Scenario: Upside,churned_customers,9.0,count
+2026-05-01,Scenario: Upside,churned_customers,10.0,count
+2026-06-01,Scenario: Upside,churned_customers,10.0,count
+2026-07-01,Scenario: Upside,churned_customers,10.0,count
+2026-08-01,Scenario: Upside,churned_customers,11.0,count
+2026-09-01,Scenario: Upside,churned_customers,11.0,count
+2026-10-01,Scenario: Upside,churned_customers,12.0,count
+2026-11-01,Scenario: Upside,churned_customers,12.0,count
+2026-12-01,Scenario: Upside,churned_customers,12.0,count
+2026-01-01,Scenario: Upside,cogs,189247.336833494,currency
+2026-02-01,Scenario: Upside,cogs,198665.11695690217,currency
+2026-03-01,Scenario: Upside,cogs,208169.67633921572,currency
+2026-04-01,Scenario: Upside,cogs,218020.7987531902,currency
+2026-05-01,Scenario: Upside,cogs,227698.12323425076,currency
+2026-06-01,Scenario: Upside,cogs,237986.02993741594,currency
+2026-07-01,Scenario: Upside,cogs,248361.91443554967,currency
+2026-08-01,Scenario: Upside,cogs,258560.9725745615,currency
+2026-09-01,Scenario: Upside,cogs,269112.0404925174,currency
+2026-10-01,Scenario: Upside,cogs,279483.5194577965,currency
+2026-11-01,Scenario: Upside,cogs,289940.8274468679,currency
+2026-12-01,Scenario: Upside,cogs,300483.71222750505,currency
+2026-01-01,Scenario: Upside,ending_customers,654.0,count
+2026-02-01,Scenario: Upside,ending_customers,682.0,count
+2026-03-01,Scenario: Upside,ending_customers,710.0,count
+2026-04-01,Scenario: Upside,ending_customers,739.0,count
+2026-05-01,Scenario: Upside,ending_customers,767.0,count
+2026-06-01,Scenario: Upside,ending_customers,797.0,count
+2026-07-01,Scenario: Upside,ending_customers,827.0,count
+2026-08-01,Scenario: Upside,ending_customers,856.0,count
+2026-09-01,Scenario: Upside,ending_customers,886.0,count
+2026-10-01,Scenario: Upside,ending_customers,915.0,count
+2026-11-01,Scenario: Upside,ending_customers,944.0,count
+2026-12-01,Scenario: Upside,ending_customers,973.0,count
+2026-01-01,Scenario: Upside,mrr,901177.7944452096,currency
+2026-02-01,Scenario: Upside,mrr,946024.3664614389,currency
+2026-03-01,Scenario: Upside,mrr,991284.1730438843,currency
+2026-04-01,Scenario: Upside,mrr,1038194.2797770962,currency
+2026-05-01,Scenario: Upside,mrr,1084276.777305956,currency
+2026-06-01,Scenario: Upside,mrr,1133266.8092257902,currency
+2026-07-01,Scenario: Upside,mrr,1182675.783026427,currency
+2026-08-01,Scenario: Upside,mrr,1231242.726545531,currency
+2026-09-01,Scenario: Upside,mrr,1281485.9071072259,currency
+2026-10-01,Scenario: Upside,mrr,1330873.9021799832,currency
+2026-11-01,Scenario: Upside,mrr,1380670.6068898472,currency
+2026-12-01,Scenario: Upside,mrr,1430874.8201309764,currency
+2026-01-01,Scenario: Upside,new_customers,37.0,count
+2026-02-01,Scenario: Upside,new_customers,37.0,count
+2026-03-01,Scenario: Upside,new_customers,37.0,count
+2026-04-01,Scenario: Upside,new_customers,38.0,count
+2026-05-01,Scenario: Upside,new_customers,38.0,count
+2026-06-01,Scenario: Upside,new_customers,40.0,count
+2026-07-01,Scenario: Upside,new_customers,40.0,count
+2026-08-01,Scenario: Upside,new_customers,40.0,count
+2026-09-01,Scenario: Upside,new_customers,41.0,count
+2026-10-01,Scenario: Upside,new_customers,41.0,count
+2026-11-01,Scenario: Upside,new_customers,41.0,count
+2026-12-01,Scenario: Upside,new_customers,41.0,count
+2026-01-01,Scenario: Upside,operating_income,117153.11327787722,currency
+2026-02-01,Scenario: Upside,operating_income,122983.16763998696,currency
+2026-03-01,Scenario: Upside,operating_income,128866.94249570498,currency
+2026-04-01,Scenario: Upside,operating_income,134965.25637102243,currency
+2026-05-01,Scenario: Upside,operating_income,140955.98104977421,currency
+2026-06-01,Scenario: Upside,operating_income,147324.68519935268,currency
+2026-07-01,Scenario: Upside,operating_income,153747.85179343552,currency
+2026-08-01,Scenario: Upside,operating_income,160061.55445091904,currency
+2026-09-01,Scenario: Upside,operating_income,166593.1679239393,currency
+2026-10-01,Scenario: Upside,operating_income,173013.60728339793,currency
+2026-11-01,Scenario: Upside,operating_income,179487.17889568012,currency
+2026-12-01,Scenario: Upside,operating_income,186013.72661702672,currency
+2026-01-01,Scenario: Upside,operating_margin,0.12999999999999998,percent
+2026-02-01,Scenario: Upside,operating_margin,0.1299999999999999,percent
+2026-03-01,Scenario: Upside,operating_margin,0.13,percent
+2026-04-01,Scenario: Upside,operating_margin,0.12999999999999992,percent
+2026-05-01,Scenario: Upside,operating_margin,0.12999999999999995,percent
+2026-06-01,Scenario: Upside,operating_margin,0.12999999999999995,percent
+2026-07-01,Scenario: Upside,operating_margin,0.13,percent
+2026-08-01,Scenario: Upside,operating_margin,0.13,percent
+2026-09-01,Scenario: Upside,operating_margin,0.12999999999999995,percent
+2026-10-01,Scenario: Upside,operating_margin,0.1300000000000001,percent
+2026-11-01,Scenario: Upside,operating_margin,0.12999999999999998,percent
+2026-12-01,Scenario: Upside,operating_margin,0.12999999999999987,percent
+2026-01-01,Scenario: Upside,revenue,901177.7944452096,currency
+2026-02-01,Scenario: Upside,revenue,946024.3664614389,currency
+2026-03-01,Scenario: Upside,revenue,991284.1730438843,currency
+2026-04-01,Scenario: Upside,revenue,1038194.2797770962,currency
+2026-05-01,Scenario: Upside,revenue,1084276.777305956,currency
+2026-06-01,Scenario: Upside,revenue,1133266.8092257902,currency
+2026-07-01,Scenario: Upside,revenue,1182675.783026427,currency
+2026-08-01,Scenario: Upside,revenue,1231242.726545531,currency
+2026-09-01,Scenario: Upside,revenue,1281485.9071072259,currency
+2026-10-01,Scenario: Upside,revenue,1330873.9021799832,currency
+2026-11-01,Scenario: Upside,revenue,1380670.6068898472,currency
+2026-12-01,Scenario: Upside,revenue,1430874.8201309764,currency
+2026-01-01,Scenario: Upside,total_opex,594777.3443338383,currency
+2026-02-01,Scenario: Upside,total_opex,624376.0818645498,currency
+2026-03-01,Scenario: Upside,total_opex,654247.5542089636,currency
+2026-04-01,Scenario: Upside,total_opex,685208.2246528836,currency
+2026-05-01,Scenario: Upside,total_opex,715622.673021931,currency
+2026-06-01,Scenario: Upside,total_opex,747956.0940890216,currency
+2026-07-01,Scenario: Upside,total_opex,780566.0167974419,currency
+2026-08-01,Scenario: Upside,total_opex,812620.1995200505,currency
+2026-09-01,Scenario: Upside,total_opex,845780.6986907691,currency
+2026-10-01,Scenario: Upside,total_opex,878376.7754387889,currency
+2026-11-01,Scenario: Upside,total_opex,911242.6005472991,currency
+2026-12-01,Scenario: Upside,total_opex,944377.3812864445,currency

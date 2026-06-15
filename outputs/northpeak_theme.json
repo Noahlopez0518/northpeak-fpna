@@ -1,0 +1,55 @@
+{
+  "name": "NorthPeak FP&A",
+  "dataColors": ["#1B3A5B", "#E07B39", "#3F8F6B", "#C0432F", "#9AA7B1", "#5B8FB0", "#C9A227", "#6B4E71"],
+  "foreground": "#1B3A5B",
+  "foregroundNeutralSecondary": "#5A6B7B",
+  "foregroundNeutralTertiary": "#9AA7B1",
+  "background": "#FFFFFF",
+  "backgroundLight": "#F4F6F8",
+  "backgroundNeutral": "#DFE4E8",
+  "tableAccent": "#E07B39",
+  "good": "#3F8F6B",
+  "neutral": "#9AA7B1",
+  "bad": "#C0432F",
+  "maximum": "#1B3A5B",
+  "center": "#9AA7B1",
+  "minimum": "#E07B39",
+  "null": "#DFE4E8",
+  "hyperlink": "#E07B39",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#1B3A5B" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1B3A5B" },
+    "callout": { "fontFace": "Segoe UI", "fontSize": 30, "color": "#1B3A5B" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#5A6B7B" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DFE4E8" } }, "radius": 10 }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#1B3A5B" } }, "position": "Outer", "preset": "Custom", "shadowSpread": 3, "shadowBlur": 8, "transparency": 88 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#1B3A5B" } }, "fontSize": 13, "fontFamily": "Segoe UI Semibold", "alignment": "left", "titleWrap": true }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F6F8" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#1B3A5B" } }, "fontSize": 30, "fontFamily": "Segoe UI Semibold" }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#5A6B7B" } }, "fontSize": 11, "fontFamily": "Segoe UI" }]
+      }
+    },
+    "waterfallChart": {
+      "*": {
+        "sentimentColors": [{
+          "increaseFill": { "solid": { "color": "#3F8F6B" } },
+          "decreaseFill": { "solid": { "color": "#C0432F" } },
+          "totalFill": { "solid": { "color": "#1B3A5B" } }
+        }]
+      }
+    }
+  }
+}
