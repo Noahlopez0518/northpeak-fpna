@@ -269,6 +269,7 @@ def plot_forecast(drivers: pd.DataFrame, fc: pd.DataFrame, bt: dict) -> None:
 
 def plot_drivers(drivers: pd.DataFrame, fc: pd.DataFrame) -> None:
     """Small-multiple view of the forecasted levers - the 'how' behind the ARR."""
+    import matplotlib.dates as mdates
     import matplotlib.pyplot as plt
     from matplotlib.ticker import FuncFormatter
 
@@ -278,7 +279,7 @@ def plot_drivers(drivers: pd.DataFrame, fc: pd.DataFrame) -> None:
     specs = [
         ("new_customers", "New customers / mo", None),
         ("logo_churn_rate", "Logo churn rate", "pct"),
-        ("arpu", "ARPU (monthly)", "money"),
+        ("arpu", "ARPU (monthly)", "dollar"),
         ("expansion_mrr", "Expansion MRR / mo", "money"),
     ]
     for ax, (col, title, fmt) in zip(axes.ravel(), specs):
@@ -289,8 +290,15 @@ def plot_drivers(drivers: pd.DataFrame, fc: pd.DataFrame) -> None:
         ax.set_title(title)
         if fmt == "money":
             ax.yaxis.set_major_formatter(FuncFormatter(utils.fmt_money))
+        elif fmt == "dollar":
+            ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"${x:,.0f}"))
         elif fmt == "pct":
             ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{x*100:.1f}%"))
+        # One tick every 6 months, short format, slight rotation — keeps the
+        # date labels from overlapping in these narrow small-multiple panels.
+        ax.xaxis.set_major_locator(mdates.MonthLocator(interval=6))
+        ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
+        ax.tick_params(axis="x", labelrotation=30)
     axes[0, 0].legend(loc="upper left")
     fig.suptitle("FY2026 Forecast - Operating Drivers", fontsize=15,
                  fontweight="bold")

@@ -117,9 +117,13 @@ def apply_style() -> None:
 
 
 def fmt_money(x, _pos=None) -> str:
-    """Axis formatter: 10266281 -> '$10.3M', 855523 -> '$856K'."""
+    """Axis formatter: 10266281 -> '$10.3M', 855523 -> '$856K', 1213 -> '$1.2K'."""
     if abs(x) >= 1e6:
         return f"${x / 1e6:.1f}M"
-    if abs(x) >= 1e3:
+    if abs(x) >= 1e4:
         return f"${x / 1e3:.0f}K"
+    if abs(x) >= 1e3:
+        # Keep a decimal for small-thousands (e.g. ARPU ~$1,200) so the axis
+        # labels stay distinct instead of all collapsing to "$1K".
+        return f"${x / 1e3:.1f}K"
     return f"${x:.0f}"
