@@ -294,7 +294,7 @@ def plot_drivers(drivers: pd.DataFrame, fc: pd.DataFrame) -> None:
             ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"${x:,.0f}"))
         elif fmt == "pct":
             ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{x*100:.1f}%"))
-        # One tick every 6 months, short format, slight rotation — keeps the
+        # One tick every 6 months, short format, slight rotation - keeps the
         # date labels from overlapping in these narrow small-multiple panels.
         ax.xaxis.set_major_locator(mdates.MonthLocator(interval=6))
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
