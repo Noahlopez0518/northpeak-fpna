@@ -22,7 +22,7 @@ The operational engine. Every dollar of revenue traces back to these customer-le
 | `new_customers` | New logos added that month |
 | `churned_customers` | Logos lost that month |
 | `ending_customers` | Active customers at month end |
-| `arpu` | Average revenue per account (monthly) |
+| `arpu` | Base monthly subscription price per account - the rate applied to new and churned logos (`new_mrr = new_customers * arpu`). Note: blended ARPU (`ending_mrr / ending_customers`) runs higher because expansion adds revenue without adding accounts. |
 | `new_mrr` | MRR added from new customers |
 | `churned_mrr` | MRR lost to churn |
 | `expansion_mrr` | Net MRR gained from existing customers (upsell) |
