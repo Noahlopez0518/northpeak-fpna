@@ -1,10 +1,5 @@
 # NorthPeak FP&A - Power BI Dashboard Build Guide
 
-This guide turns the project's data into an executive Power BI dashboard. Claude
-Code can't author a `.pbix` directly, so it produced two clean, tidy datasets and
-this step-by-step spec. A competent analyst can assemble the dashboard below in
-30-45 minutes.
-
 ## Data sources
 
 | File | Shape | Powers |
