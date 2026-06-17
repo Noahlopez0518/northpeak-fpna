@@ -100,6 +100,51 @@ the final consumer (Power BI / Excel) gets clean inputs either way.
 
 ---
 
+## Methodology & design decisions
+
+A few choices a reviewer tends to ask about, and the reasoning behind them.
+
+**How do the 46 checks in `validate.py` actually work?**
+They are not unit tests of the code - they re-derive each accounting identity
+independently from the raw data and assert the model agrees. The checks fall into
+five groups: (A) raw-data identities - the SaaS revenue walk
+`ending_mrr[t] = ending_mrr[t-1] + new_mrr - churned_mrr + expansion_mrr`, the
+customer-count walk, `arr = ending_mrr * 12`, `new_mrr = new_customers * arpu`,
+and the P&L chain (`gross_profit = revenue - cogs`, `operating_income = gross_profit
+- total_opex`); (B) the forecast walk reconciles across the seam to the last actual
+and the backtest beats the baseline; (C) variance ties to the raw FY2025 sums and the
+bridge reconciles (`budget OI + sum(deltas) = actual OI`); (D) every scenario satisfies
+the P&L identity and the Base case equals the Component 2 forecast to the dollar;
+(E) business-sense guardrails (margins, churn, growth, Rule of 40 in plausible bands).
+Comparisons use an absolute tolerance of $1 to absorb cents-level rounding in the
+synthetic data. If any check fails the script exits non-zero, so a broken number can't
+ship silently.
+
+**Why a Holt damped-trend model instead of linear regression or a moving average?**
+Each driver has a different shape, so the model is matched to the series, not applied
+blanket. New customers and ARPU trend upward but the trend should *flatten*, not
+extrapolate forever - a plain linear regression would project the early-stage growth
+rate indefinitely and overshoot, while a moving average has no trend at all and would
+forecast a flat line (exactly the "flat growth %" this project is built to avoid).
+Holt's method with a **damped** trend captures the direction while pulling the slope
+toward zero over the horizon, which is the honest assumption for a maturing business.
+Churn rate is roughly stationary, so it uses level-only smoothing (no trend) rather
+than being allowed to drift. The choice is then *defended quantitatively*: a 6-month
+holdout backtest scores the model at ~3.9% ARR MAPE versus the naive flat-growth
+baseline, so the added structure is justified rather than assumed.
+
+**How does the Power BI report handle conditional formatting off the long dataset?**
+Worth being precise here: the single `unit` column (`currency` / `percent` / `count`)
+does **not** drive the red/green coloring. Its job is *display* - it tags each row's
+metric type so the right number format applies (`$#,0.0,,"M"` vs `0.0%`) without a
+separate measure per metric. The favorable/unfavorable red-green coloring on the
+variance visuals is **value-based**: conditional-formatting rules split at zero (one
+rule for the favorable side, one for the unfavorable), driven by the variance amount
+and the F/U flag, not by `unit`. Keeping the data tidy/long is what makes both work
+from one table - every visual is a filter on `series` + `metric` instead of a reshape.
+
+---
+
 ## How to run
 
 ```bash
